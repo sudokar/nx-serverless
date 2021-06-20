@@ -1,0 +1,76 @@
+{
+  "name": "nx-serverless-template",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "nx": "nx",
+    "build": "nx build",
+    "test": "nx test",
+    "lint": "nx workspace-lint && nx lint",
+    "e2e": "nx e2e",
+    "affected:stacks": "nx affected:apps",
+    "affected:libs": "nx affected:libs",
+    "affected:build": "nx affected:build",
+    "affected:e2e": "nx affected:e2e",
+    "affected:test": "nx affected:test",
+    "affected:lint": "nx affected:lint",
+    "affected:dep-graph": "nx affected:dep-graph",
+    "affected": "nx affected",
+    "format": "nx format:write",
+    "format:write": "nx format:write",
+    "format:check": "nx format:check",
+    "update": "nx migrate latest",
+    "workspace-generator": "nx workspace-generator",
+    "dep-graph": "nx dep-graph",
+    "help": "nx help",
+    "prepare": "husky install"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@aws-sdk/types": "3.18.0",
+    "@jest/transform": "27.0.2",
+    "@nrwl/cli": "12.4.0",
+    "@nrwl/devkit": "12.4.0",
+    "@nrwl/eslint-plugin-nx": "12.4.0",
+    "@nrwl/jest": "12.4.0",
+    "@nrwl/linter": "12.4.0",
+    "@nrwl/node": "12.4.0",
+    "@nrwl/nx-cloud": "12.2.4",
+    "@nrwl/tao": "12.4.0",
+    "@nrwl/workspace": "12.4.0",
+    "@types/aws-lambda": "8.10.77",
+    "@types/jest": "26.0.23",
+    "@types/node": "15.12.4",
+    "@types/serverless": "1.78.29",
+    "@typescript-eslint/eslint-plugin": "4.27.0",
+    "@typescript-eslint/parser": "4.27.0",
+    "eslint": "7.29.0",
+    "eslint-config-prettier": "8.3.0",
+    "husky": "6.0.0",
+    "jest": "27.0.4",
+    "lint-staged": "11.0.0",
+    "prettier": "2.3.1",
+    "serverless": "2.47.0",
+    "serverless-jest-plugin": "0.3.0",
+    "serverless-webpack": "5.5.1",
+    "terser-webpack-plugin": "5.1.3",
+    "ts-jest": "27.0.3",
+    "ts-loader": "9.2.3",
+    "tsconfig-paths-webpack-plugin": "3.5.1",
+    "typescript": "4.3.4",
+    "webpack": "5.39.1",
+    "webpack-node-externals": "3.0.0"
+  },
+  "engines": {
+    "node": ">=14 <15"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{md,json,yml,yaml,html}": [
+      "prettier --write"
+    ]
+  }
+}
