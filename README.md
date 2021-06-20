@@ -10,7 +10,6 @@ A monrepo style, modern boilerplate or template project for [Serverless framewor
 - [Usage](#usage)
 - [Further help](#further-help)
 - [Nx Cloud](#nx-cloud)
-  - [Computation Memoization in the Cloud](#computation-memoization-in-the-cloud)
 - [Contribution](#contribution)
 - [Support](#support)
 - [Maintainer](#maintainer)
