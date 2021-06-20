@@ -1,4 +1,4 @@
-# nx-serverless-template
+# nx-serverless
 
 A monrepo style, modern boilerplate or template project for [Serverless framework](https://www.serverless.com/) using [Nx](https://nx.dev) monorepo toolkit 🛠 and `aws-nodejs-typesript` serverless template
 
@@ -8,8 +8,8 @@ A monrepo style, modern boilerplate or template project for [Serverless framewor
 - [Template Layout](#template-layout)
 - [Prerequisites](#prerequisites)
 - [Usage](#usage)
-- [📚Further help](#--further-help)
-- [☁ Nx Cloud](#--nx-cloud)
+- [Further help](#further-help)
+- [Nx Cloud](#nx-cloud)
   - [Computation Memoization in the Cloud](#computation-memoization-in-the-cloud)
 - [Contribution](#contribution)
 - [Support](#support)
@@ -197,13 +197,13 @@ Depending on your prefrered package manager, follow the instructions below to bu
   nx dep-graph
   ```
 
-### 📚Further help
+### Further help
 
 - Visit [Serverless Documentation](https://www.serverless.com/framework/docs/) to learn more about Serverless framework
 - Visit [Nx Documentation](https://nx.dev) to learn more about Nx dev toolkit
 - Why NX, not Lerna? Read [here](https://blog.nrwl.io/migrating-from-lerna-to-nx-better-dev-ergonomics-much-faster-build-times-da76ff14ccbb) from co-founder of Nx
 
-### ☁ Nx Cloud
+### Nx Cloud
 
 ##### Computation Memoization in the Cloud
 
