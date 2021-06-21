@@ -1,4 +1,8 @@
-# nx-serverless
+# nx-serverless-template
+
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/sudokar/nx-serverless/blob/master/LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/sudokar/nx-serverless)
+![Maintained](https://img.shields.io/maintenance/yes/2021.svg)
 
 A monrepo style, modern boilerplate or template project for [Serverless framework](https://www.serverless.com/) using [Nx](https://nx.dev) monorepo toolkit 🛠 and `aws-nodejs-typesript` serverless template
 
