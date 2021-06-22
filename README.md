@@ -6,7 +6,7 @@
 
 A monrepo style, modern boilerplate or template project for [Serverless framework](https://www.serverless.com/) using [Nx](https://nx.dev) monorepo toolkit 🛠 and `aws-nodejs-typesript` serverless template
 
-### Table of contents
+## Table of contents
 
 - [Whats Included](#whats-included)
 - [Template Layout](#template-layout)
@@ -19,13 +19,13 @@ A monrepo style, modern boilerplate or template project for [Serverless framewor
 - [Maintainer](#maintainer)
 - [License](#license)
 
-### Whats Included
+## Whats Included
 
 - A template project layout using latest version of Nx and Servrless framework
 - An easy to use workspace generator to generate a template/stack with Serverless framework files and related Nx configuration
 - Configured with AWS provider and it can be easily adopted to any cloud provider
 
-### Template Layout
+## Template Layout
 
 ```shell
 .
@@ -50,7 +50,7 @@ A monrepo style, modern boilerplate or template project for [Serverless framewor
 ├── .prettierrc
 ```
 
-### Prerequisites
+## Prerequisites
 
 - [Nodejs](https://nodejs.org/) `protip: use nvm`
 
@@ -72,7 +72,7 @@ A monrepo style, modern boilerplate or template project for [Serverless framewor
 
   > On your preferred code editor, Install plugins for the above list of tools
 
-### Usage
+## Usage
 
 Depending on your prefrered package manager, follow the instructions below to build and deploy serverless stack(s).
 
@@ -200,13 +200,13 @@ Depending on your prefrered package manager, follow the instructions below to bu
   nx dep-graph
   ```
 
-### Further help
+## Further help
 
 - Visit [Serverless Documentation](https://www.serverless.com/framework/docs/) to learn more about Serverless framework
 - Visit [Nx Documentation](https://nx.dev) to learn more about Nx dev toolkit
 - Why NX, not Lerna? Read [here](https://blog.nrwl.io/migrating-from-lerna-to-nx-better-dev-ergonomics-much-faster-build-times-da76ff14ccbb) from co-founder of Nx
 
-### Nx Cloud
+## Nx Cloud
 
 ##### Computation Memoization in the Cloud
 
@@ -214,13 +214,13 @@ Depending on your prefrered package manager, follow the instructions below to bu
 
 ​ Visit [Nx Cloud](https://nx.app/) to learn more and enable it
 
-### Contribution
+## Contribution
 
 Found an issue? feel free to raise an issue with information to reproduce.
 
 Pull requests are welcome to improve.
 
-### Support
+## Support
 
 Like the template?
 
@@ -230,10 +230,10 @@ Or, Add a star :star: to the repository
 
 Or, Simply use it :smiley:
 
-### Maintainer
+## Maintainer
 
 This template is authored and maintained by [sudokar](https://github.com/sudokar)
 
-### License
+## License
 
 MIT
