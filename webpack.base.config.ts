@@ -1,9 +1,12 @@
-const path = require('path');
-const slsw = require('serverless-webpack');
-const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
-const TerserPlugin = require('terser-webpack-plugin');
+import * as path from 'path';
+import * as slsw from 'serverless-webpack';
+import TsconfigPathsPlugin from 'tsconfig-paths-webpack-plugin';
+import * as TerserPlugin from 'terser-webpack-plugin';
+import * as webpack from 'webpack';
 
-module.exports = (directory) => ({
+export const baseWebpackConfig = (
+  directory: string
+): webpack.Configuration => ({
   context: directory,
   mode: 'production',
   entry: slsw.lib.entries,

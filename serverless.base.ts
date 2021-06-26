@@ -9,7 +9,7 @@ export const baseServerlessConfiguration: Partial<Serverless> = {
   plugins: ['serverless-webpack'],
   custom: {
     webpack: {
-      webpackConfig: './webpack.config.js',
+      webpackConfig: './webpack.config.ts',
       includeModules: false,
       packager: 'yarn',
       excludeFiles: '**/src/**/*.spec.ts',
