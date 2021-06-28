@@ -1,5 +1,9 @@
 # nx-serverless-template
 
+[![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)
+[![](https://img.shields.io/badge/monorepo-Nx-blue)](https://nx.dev/)
+![npm peer dependency version (scoped)](https://img.shields.io/npm/dependency-version/eslint-config-prettier/peer/eslint)
+![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/sudokar/nx-serverless/blob/master/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/sudokar/nx-serverless)
 ![Maintained](https://img.shields.io/maintenance/yes/2021.svg)
@@ -39,7 +43,7 @@ A monrepo style, modern boilerplate or template project for [Serverless framewor
 ├── package.json
 ├── serverless.base.ts  # base configuration for serverless
 ├── tsconfig.base.json
-├── webpack.config.js   # configuration for webpack
+├── webpack.base.config.ts   # base configuration for webpack
 ├── workspace.json
 ├── .editorconfig
 ├── .eslintrc.json
