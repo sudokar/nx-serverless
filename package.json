@@ -39,7 +39,7 @@
     "@nrwl/tao": "12.5.4",
     "@nrwl/workspace": "12.5.4",
     "@types/aws-lambda": "8.10.78",
-    "@types/jest": "26.0.23",
+    "@types/jest": "26.0.24",
     "@types/node": "15.12.4",
     "@types/serverless": "1.78.29",
     "@types/terser-webpack-plugin": "5.0.4",
