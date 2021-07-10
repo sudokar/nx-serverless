@@ -1,7 +1,7 @@
 {
   "npmScope": "nx-serverless-template",
   "affected": {
-    "defaultBase": "master"
+    "defaultBase": "main"
   },
   "implicitDependencies": {
     "workspace.json": "*",
