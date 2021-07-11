@@ -44,4 +44,4 @@ jobs:
         run: yarn nx run-many --target=test --all
       
       - name: Sls package
-        run: yarn nx run-many --target=build --all
+        run: yarn nx run-many --target=build --all --stage=ci
