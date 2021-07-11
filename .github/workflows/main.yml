@@ -32,16 +32,16 @@ jobs:
         run: yarn install
         
       - name: Generate stack
-        run: nx workspace-generator serverless test-stack
+        run: yarn nx workspace-generator serverless test-stack
       
       - name: Generate library
-        run: nx g @nrwl/node:lib test-lib --tags lib
+        run: yarn nx g @nrwl/node:lib test-lib --tags lib
         
       - name: Linting
-        run: nx run-many --target=lint
+        run: yarn nx run-many --target=lint
         
       - name: Run tests
-        run: nx run-many --target=test --all
+        run: yarn nx run-many --target=test --all
       
       - name: Sls package
-        run: nx run-many --target=build
+        run: yarn nx run-many --target=build
