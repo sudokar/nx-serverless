@@ -6,9 +6,9 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -27,21 +27,21 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '14.x'
-          
+
       - name: Install packages
-        run: yarn install
-        
+        run: yarn install --frozen-lockfile
+
       - name: Generate stack
         run: yarn nx workspace-generator serverless test-stack
-      
+
       - name: Generate library
         run: yarn nx g @nrwl/node:lib test-lib --tags lib
-        
+
       - name: Linting
         run: yarn nx run-many --target=lint --all
-        
+
       - name: Run tests
         run: yarn nx run-many --target=test --all
-      
+
       - name: Sls package
         run: yarn nx run-many --target=build --all --stage=ci
