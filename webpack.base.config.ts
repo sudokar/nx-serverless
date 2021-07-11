@@ -1,7 +1,6 @@
 import * as path from 'path';
 import * as slsw from 'serverless-webpack';
 import TsconfigPathsPlugin from 'tsconfig-paths-webpack-plugin';
-import * as TerserPlugin from 'terser-webpack-plugin';
 import * as webpack from 'webpack';
 
 export const baseWebpackConfig = (
@@ -14,14 +13,18 @@ export const baseWebpackConfig = (
   optimization: {
     minimize: true,
     minimizer: [
-      new TerserPlugin({
-        terserOptions: {
-          format: {
-            comments: false,
-          },
-        },
-        extractComments: false,
-      }),
+      () => {
+        return () => {
+          return {
+            terserOptions: {
+              format: {
+                comments: false,
+              },
+            },
+            extractComments: false,
+          };
+        };
+      },
     ],
   },
   resolve: {
