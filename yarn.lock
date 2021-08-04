@@ -965,7 +965,7 @@
     node-fetch "^2.6.0"
     shortid "^2.2.14"
 
-"@serverless/components@^3.14.0":
+"@serverless/components@^3.14.2":
   version "3.14.2"
   resolved "https://registry.yarnpkg.com/@serverless/components/-/components-3.14.2.tgz#c4b69f90ed441a1432afb7557cea3aa827192a30"
   integrity sha512-mizSDUxNKT+V1hx5edZFFbMBvtWY8FkponU3seWpmkkbv1FjNPpa2wURec89T5m4WadYJDQMCpKKCwYD4DOSow==
@@ -1067,7 +1067,7 @@
     urlencode "^1.1.0"
     ws "^7.3.1"
 
-"@serverless/platform-client@^4.2.2", "@serverless/platform-client@^4.2.3", "@serverless/platform-client@^4.2.5":
+"@serverless/platform-client@^4.2.2", "@serverless/platform-client@^4.2.3", "@serverless/platform-client@^4.2.6":
   version "4.2.6"
   resolved "https://registry.yarnpkg.com/@serverless/platform-client/-/platform-client-4.2.6.tgz#bc37bbab64dd39ef8cddcf9b13ac849e4244bfdf"
   integrity sha512-TVwlUvYnNjotd4010I9Vh0Dr0c2XByaUTEjpxLJm/Ti51Ka6vLIJ44JxuNZ6TmvkRh66yFZbaZUsVv6W4wNUVQ==
@@ -2287,10 +2287,25 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-aws-sdk@^2.4.0, aws-sdk@^2.951.0:
+aws-sdk@^2.4.0:
   version "2.958.0"
   resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.958.0.tgz#c28b1cf98c93fc3401b47b9d4ac00083f4f9176c"
   integrity sha512-D5/2mW+hl5+CYvAniB209VUN3lFo7ZypCdO0RxyKG49DjoB+h3wvNxJo/BKL3A0sSiMOlrT61vDWsmkeE34S/g==
+  dependencies:
+    buffer "4.9.2"
+    events "1.1.1"
+    ieee754 "1.1.13"
+    jmespath "0.15.0"
+    querystring "0.2.0"
+    sax "1.2.1"
+    url "0.10.3"
+    uuid "3.3.2"
+    xml2js "0.4.19"
+
+aws-sdk@^2.960.0:
+  version "2.960.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.960.0.tgz#7f5fba5de9b284c0d7e77c11ae7e64a4bf085de7"
+  integrity sha512-e3KNZ5x0uzBNbVLbGUO2xrMRonUPpmXxgyZ/MaHx5yOQIv9G2a7dei/TvrMa9rl4MFCScGLw1LjbYb7CrdbMBQ==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -2923,7 +2938,7 @@ chalk@^2.0.0, chalk@^2.0.1, chalk@^2.3.0, chalk@^2.4.1, chalk@^2.4.2:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
-chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.1:
+chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.1, chalk@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
   integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
@@ -9225,24 +9240,24 @@ serverless-webpack@5.5.1:
   optionalDependencies:
     ts-node ">= 8.3.0"
 
-serverless@2.52.1:
-  version "2.52.1"
-  resolved "https://registry.yarnpkg.com/serverless/-/serverless-2.52.1.tgz#676540e9282ace955db85faf03752e3394871121"
-  integrity sha512-aDMJiSyCxqbJCt7011L0rMsxkd1lHSz8HotUiQWE8dFFqm3txZ1MpEy01bOLx4n35Qnyj1F8g+jmT9x+WnI2ZQ==
+serverless@2.53.0:
+  version "2.53.0"
+  resolved "https://registry.yarnpkg.com/serverless/-/serverless-2.53.0.tgz#2c1136b802143710bd9d5cc0a1730d1453bf5a20"
+  integrity sha512-2srJa55dQY4kx+aNGkevvZbJ/8j/C1TLD3AvZdpqgrRPNG41yfl1B3V/pXMmq5sfdpx09Fr8JOeNRgUgJUq7Aw==
   dependencies:
     "@serverless/cli" "^1.5.2"
-    "@serverless/components" "^3.14.0"
+    "@serverless/components" "^3.14.2"
     "@serverless/dashboard-plugin" "^5.4.3"
-    "@serverless/platform-client" "^4.2.5"
+    "@serverless/platform-client" "^4.2.6"
     "@serverless/utils" "^5.6.0"
     ajv "^6.12.6"
     ajv-keywords "^3.5.2"
     archiver "^5.3.0"
-    aws-sdk "^2.951.0"
+    aws-sdk "^2.960.0"
     bluebird "^3.7.2"
     boxen "^5.0.1"
     cachedir "^2.3.0"
-    chalk "^4.1.1"
+    chalk "^4.1.2"
     child-process-ext "^2.1.1"
     ci-info "^3.2.0"
     cli-progress-footer "^1.1.1"
@@ -9278,7 +9293,7 @@ serverless@2.52.1:
     semver "^7.3.5"
     signal-exit "^3.0.3"
     tabtab "^3.0.2"
-    tar "^6.1.0"
+    tar "^6.1.6"
     timers-ext "^0.1.7"
     type "^2.5.0"
     untildify "^4.0.0"
@@ -10034,10 +10049,22 @@ tar@5.0.5:
     mkdirp "^0.5.0"
     yallist "^4.0.0"
 
-tar@^6.0.2, tar@^6.1.0:
+tar@^6.0.2:
   version "6.1.2"
   resolved "https://registry.yarnpkg.com/tar/-/tar-6.1.2.tgz#1f045a90a6eb23557a603595f41a16c57d47adc6"
   integrity sha512-EwKEgqJ7nJoS+s8QfLYVGMDmAsj+StbI2AM/RTHeUSsOw6Z8bwNBRv5z3CY0m7laC5qUAqruLX5AhMuc5deY3Q==
+  dependencies:
+    chownr "^2.0.0"
+    fs-minipass "^2.0.0"
+    minipass "^3.0.0"
+    minizlib "^2.1.1"
+    mkdirp "^1.0.3"
+    yallist "^4.0.0"
+
+tar@^6.1.6:
+  version "6.1.6"
+  resolved "https://registry.yarnpkg.com/tar/-/tar-6.1.6.tgz#c23d797b0a1efe5d479b1490805c5443f3560c5d"
+  integrity sha512-oaWyu5dQbHaYcyZCTfyPpC+VmI62/OM2RTUYavTk1MDr1cwW5Boi3baeYQKiZbY2uSQJGr+iMOzb/JFxLrft+g==
   dependencies:
     chownr "^2.0.0"
     fs-minipass "^2.0.0"
