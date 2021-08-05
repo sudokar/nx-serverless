@@ -27,7 +27,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@aws-sdk/types": "3.22.0",
+    "@aws-sdk/types": "3.25.0",
     "@jest/transform": "27.0.6",
     "@nrwl/cli": "12.6.5",
     "@nrwl/devkit": "12.6.5",
