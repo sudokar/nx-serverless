@@ -35,7 +35,7 @@
     "@nrwl/jest": "12.7.0",
     "@nrwl/linter": "12.7.0",
     "@nrwl/node": "12.7.0",
-    "@nrwl/nx-cloud": "12.3.8",
+    "@nrwl/nx-cloud": "12.3.10",
     "@nrwl/tao": "12.7.0",
     "@nrwl/workspace": "12.7.0",
     "@types/aws-lambda": "8.10.82",
