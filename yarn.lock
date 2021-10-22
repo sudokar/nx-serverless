@@ -1649,10 +1649,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/serverless@1.78.36":
-  version "1.78.36"
-  resolved "https://registry.yarnpkg.com/@types/serverless/-/serverless-1.78.36.tgz#a7cf3b22825caa815de845f215aa20ca9379ff1a"
-  integrity sha512-ciFBz5IPFuWKWlZH1ZKc+fYdE5Eo4MYrcavstuKWbQxpCKT9XIenoXQhmYtQ0PG166EjQ+OQz8qynMCJNykEsQ==
+"@types/serverless@1.78.37":
+  version "1.78.37"
+  resolved "https://registry.yarnpkg.com/@types/serverless/-/serverless-1.78.37.tgz#7c64c91f9db1a7f80e411b16857b3154b1eed028"
+  integrity sha512-QvNmM9nQIEG64cslml4cylh18ZYxyadRc1R9eeuAW+BxjklhOWo8HuH/SyHJbXLcLEFIV81dbzpSOqJZ99gGwQ==
 
 "@types/source-list-map@*":
   version "0.1.2"
