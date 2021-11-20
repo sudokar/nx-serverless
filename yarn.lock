@@ -9506,10 +9506,10 @@ serialize-javascript@^6.0.0:
   dependencies:
     randombytes "^2.1.0"
 
-serverless-jest-plugin@0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/serverless-jest-plugin/-/serverless-jest-plugin-0.3.0.tgz#4526c41b98bf95c6c6158b11d1bbea94c42d4358"
-  integrity sha512-w/msZzdtMu1YRCX1ovqpk4S/kHA+ZC2Ue9/Cu6jHsm9xQGhpBIZRFugGzfH/KOHpokMnQFCnt+j4oOhSaLsM9A==
+serverless-jest-plugin@0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/serverless-jest-plugin/-/serverless-jest-plugin-0.4.0.tgz#97ccc919e0d8550a071d0b565df3eb1625a8689b"
+  integrity sha512-Bana+FsSwYcZgS2Mh3e2qHkjkNKH4mXUaxqyYtGK6AKbOM0M1A+Y+xnA2PDYpW4QQXyTa+LUFalxnNWl0txHwQ==
   dependencies:
     bluebird "^3.5.2"
     ejs "^2.6.1"
