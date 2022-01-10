@@ -52,7 +52,7 @@
     "jest": "27.4.7",
     "lint-staged": "12.1.7",
     "prettier": "2.5.1",
-    "serverless": "2.70.0",
+    "serverless": "2.71.0",
     "serverless-jest-plugin": "0.4.0",
     "serverless-webpack": "5.6.0",
     "ts-jest": "27.1.2",
