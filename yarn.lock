@@ -10,10 +10,10 @@
     d "1"
     es5-ext "^0.10.47"
 
-"@aws-sdk/types@3.46.0":
-  version "3.46.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/types/-/types-3.46.0.tgz#4f64871a6e32547403e5b3229b66d318909619b3"
-  integrity sha512-yhrkVVyv4RUt3KqDDyEayjBM5dRBtuS486THeqtSghUYNV7M/cW18TA3gdMC0pRGgUqfKrOysdBZjCyPrYNvuA==
+"@aws-sdk/types@3.47.0":
+  version "3.47.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/types/-/types-3.47.0.tgz#58afc08084a0c929687a9c242edc3794abb22e95"
+  integrity sha512-ljxyrASkxCsgPXW/jRGGokNtjOql4RbzEl23HEliDmmETlKOrUKVDa2iqhnz5nvqVTc1MgOQv/dr9YBO1LHHIQ==
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.12.13", "@babel/code-frame@^7.16.7", "@babel/code-frame@^7.8.3":
   version "7.16.7"
