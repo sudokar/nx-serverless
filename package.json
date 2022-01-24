@@ -41,7 +41,7 @@
     "@types/aws-lambda": "8.10.91",
     "@types/jest": "27.4.0",
     "@types/node": "15.12.4",
-    "@types/serverless": "1.78.42",
+    "@types/serverless": "1.78.43",
     "@types/terser-webpack-plugin": "5.0.4",
     "@types/webpack": "5.28.0",
     "@typescript-eslint/eslint-plugin": "5.10.0",
