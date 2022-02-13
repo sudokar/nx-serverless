@@ -50,7 +50,7 @@
     "eslint-config-prettier": "8.3.0",
     "husky": "7.0.4",
     "jest": "27.5.1",
-    "lint-staged": "12.3.3",
+    "lint-staged": "12.3.4",
     "prettier": "2.5.1",
     "serverless": "2.72.2",
     "serverless-jest-plugin": "0.4.0",
