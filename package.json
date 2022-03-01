@@ -38,7 +38,7 @@
     "@nrwl/nx-cloud": "13.1.6",
     "@nrwl/tao": "13.8.3",
     "@nrwl/workspace": "13.8.3",
-    "@types/aws-lambda": "8.10.92",
+    "@types/aws-lambda": "8.10.93",
     "@types/jest": "27.4.1",
     "@types/node": "15.12.4",
     "@types/serverless": "1.78.44",
