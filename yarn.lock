@@ -17,10 +17,10 @@
   dependencies:
     "@jridgewell/trace-mapping" "^0.3.0"
 
-"@aws-sdk/types@3.54.1":
-  version "3.54.1"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/types/-/types-3.54.1.tgz#2e0337249ee7ddb79b5054858f68c49e7208d910"
-  integrity sha512-7JgapyqowaBqhX80ZDxumeLhnyS3Up5ZXn2MljiBwJ2B5mAGomcfFDMDvViJfbKO6pKakopp0iXtPTulH6sIgw==
+"@aws-sdk/types@3.55.0":
+  version "3.55.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/types/-/types-3.55.0.tgz#d524d567e2b2722f2d6be83e2417dd6d46ce1490"
+  integrity sha512-wrDZjuy1CVAYxDCbm3bWQIKMGfNs7XXmG0eG4858Ixgqmq2avsIn5TORy8ynBxcXn9aekV/+tGEQ7BBSYzIVNQ==
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.12.13", "@babel/code-frame@^7.16.7", "@babel/code-frame@^7.8.3":
   version "7.16.7"
