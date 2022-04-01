@@ -892,12 +892,13 @@
     webpack-merge "^5.8.0"
     webpack-node-externals "^3.0.0"
 
-"@nrwl/nx-cloud@13.2.1":
-  version "13.2.1"
-  resolved "https://registry.yarnpkg.com/@nrwl/nx-cloud/-/nx-cloud-13.2.1.tgz#14388d7122761e09bacc1da4ee8b26adb24309b0"
-  integrity sha512-fiZg0Y6U1amfOnv29wp3gBKc6eqNcEFj6iAlTBFF6ZW+JylH1aVzMHGiBdNLGX2y4aMVPILIfz61LY0Hphi0Gg==
+"@nrwl/nx-cloud@13.2.2":
+  version "13.2.2"
+  resolved "https://registry.yarnpkg.com/@nrwl/nx-cloud/-/nx-cloud-13.2.2.tgz#9eee1e9ea0b0c3a3a805208405fb6341a02123b4"
+  integrity sha512-ryGE3JBkSGie0Oy+hFHfiYVNt1BQlNGa3Q7RjeZjILFyNFXkSFzufWYCt1gIRiGlQ7+Q48t1m6gLi2afElNGmg==
   dependencies:
     axios "^0.21.1"
+    chalk "4.1.0"
     node-machine-id "^1.1.12"
     strip-json-comments "^3.1.1"
     tar "6.1.11"
