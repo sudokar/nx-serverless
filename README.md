@@ -2,7 +2,7 @@
 
 [![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)
 [![](https://img.shields.io/badge/monorepo-Nx-blue)](https://nx.dev/)
-[![]](https://badges.aleen42.com/src/eslint.svg)
+![npm peer dependency version (scoped)](https://img.shields.io/npm/dependency-version/eslint-config-prettier/peer/eslint)
 ![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/sudokar/nx-serverless/blob/master/LICENSE)
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/Naereen/badges.svg)](http://isitmaintained.com/project/Naereen/badges 'Percentage of issues still open')
