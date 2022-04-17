@@ -6,13 +6,15 @@ export const baseServerlessConfiguration: Partial<Serverless> = {
     individually: true,
     excludeDevDependencies: true,
   },
-  plugins: ['serverless-webpack'],
+  plugins: ['serverless-esbuild'],
   custom: {
-    webpack: {
-      webpackConfig: './webpack.config.ts',
-      includeModules: false,
+    esbuild: {
+      bundle: true,
+      minify: true,
+      target: 'node14',
       packager: 'yarn',
-      excludeFiles: '**/src/**/*.spec.ts',
+      sourcemap: true,
+      sourcesContent: false,
     },
   },
   provider: {
