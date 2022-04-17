@@ -1,7 +1,4 @@
 {
   "version": 2,
-  "projects": {},
-  "cli": {
-    "defaultCollection": "@nrwl/node"
-  }
+  "projects": {}
 }
