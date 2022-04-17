@@ -48,7 +48,6 @@ A monrepo style, modern boilerplate or template project for [Serverless framewor
 ├── package.json
 ├── serverless.base.ts  # base configuration for serverless
 ├── tsconfig.base.json
-├── webpack.base.config.ts   # base configuration for webpack
 ├── workspace.json
 ├── .editorconfig
 ├── .eslintrc.json
