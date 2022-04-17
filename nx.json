@@ -25,5 +25,7 @@
   "workspaceLayout": {
     "appsDir": "stacks"
   },
-  "projects": {}
+  "cli": {
+    "defaultCollection": "@nrwl/node"
+  }
 }
