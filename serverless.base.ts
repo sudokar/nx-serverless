@@ -1,7 +1,7 @@
 import type { Serverless } from 'serverless/aws';
 
 export const baseServerlessConfiguration: Partial<Serverless> = {
-  frameworkVersion: '2',
+  frameworkVersion: '3',
   package: {
     individually: true,
     excludeDevDependencies: true,
@@ -27,6 +27,5 @@ export const baseServerlessConfiguration: Partial<Serverless> = {
       AWS_NODEJS_CONNECTION_REUSE_ENABLED: '1',
     },
     region: 'eu-west-1',
-    lambdaHashingVersion: 20201221,
   },
 };
