@@ -1,4 +1,4 @@
-# nx-serverless-template
+# nx-serverless-monorepo
 
 [![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)
 [![](https://img.shields.io/badge/monorepo-Nx-blue)](https://nx.dev/)
@@ -232,11 +232,9 @@ Pull requests are welcome to improve.
 
 Like the template?
 
-<a href="https://www.buymeacoffee.com/sudokar" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+Click to <a href="https://www.buymeacoffee.com/sudokar" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="50" width="250"></a>
 
 Or, Add a star :star: to the repository
-
-Or, Simply use it :smiley:
 
 ## Maintainer
 
