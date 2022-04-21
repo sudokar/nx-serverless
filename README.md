@@ -13,7 +13,7 @@
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
 
-A monrepo style, modern boilerplate or template project for [Serverless framework](https://www.serverless.com/) using [Nx](https://nx.dev) monorepo toolkit 🛠 and `aws-nodejs-typesript` serverless template
+A monrepo style, modern boilerplate or template project for [Serverless framework](https://www.serverless.com/) using [Nx](https://nx.dev) monorepo toolkit 🛠 and `aws-nodejs-typescript` serverless template
 
 ## Table of contents
 
