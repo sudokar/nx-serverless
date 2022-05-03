@@ -212,7 +212,7 @@ Depending on your prefrered package manager, follow the instructions below to bu
 
 - Visit [Serverless Documentation](https://www.serverless.com/framework/docs/) to learn more about Serverless framework
 - Visit [Nx Documentation](https://nx.dev) to learn more about Nx dev toolkit
-- Why NX, not Lerna? Read [here](https://blog.nrwl.io/migrating-from-lerna-to-nx-better-dev-ergonomics-much-faster-build-times-da76ff14ccbb) from co-founder of Nx
+- Why NX, not Lerna? Lerna is no longer maintained
 
 ## Nx Cloud
 
