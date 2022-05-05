@@ -1150,17 +1150,17 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@nrwl/cli@14.1.1":
-  version "14.1.1"
-  resolved "https://registry.yarnpkg.com/@nrwl/cli/-/cli-14.1.1.tgz#5814932d771f1c00705bdfc957a45df56af5da79"
-  integrity sha512-QSARR7H2nmYfWT78MP3DszM9QLPYxia99sO8w5Y4iuz63AoilC4vQfsFaWwhRLxp05LzouAiBkdk3RytQazoqA==
+"@nrwl/cli@14.1.4":
+  version "14.1.4"
+  resolved "https://registry.yarnpkg.com/@nrwl/cli/-/cli-14.1.4.tgz#4d896bbfcb49f058711dd47a67c422297db03be9"
+  integrity sha512-XjJe/bnOKDYvvY9IxKdETWTGekRu/cN9wThwwlo8xo4Tqy1VK0MfqpDDALrFYp739NG5Zyuhtbz5+Ko48RK75g==
   dependencies:
-    nx "14.1.1"
+    nx "14.1.4"
 
-"@nrwl/devkit@14.1.1":
-  version "14.1.1"
-  resolved "https://registry.yarnpkg.com/@nrwl/devkit/-/devkit-14.1.1.tgz#b7425b863c3a900e10745f05a59c6ea0f8258296"
-  integrity sha512-+nKJZRtgyuZHJIb3STNPMU1ZskKYL25NJry1IcnLpAIHVDY8vCru9AR0k3gChqzHE1PwR0cU0Zeyr0NeBdl0mw==
+"@nrwl/devkit@14.1.4":
+  version "14.1.4"
+  resolved "https://registry.yarnpkg.com/@nrwl/devkit/-/devkit-14.1.4.tgz#7cabec88109ec8fec60b11aba7cbfddc4b9e771e"
+  integrity sha512-Q7/cDrULhqdbfPRp8N0x9y67r49ApzYG+CVEXI8VowwHFAI3zCr/PNlzsfuLL4l2Uj0jYOt+LPoNbFZuCLAQLA==
   dependencies:
     ejs "^3.1.7"
     ignore "^5.0.4"
@@ -1168,25 +1168,25 @@
     semver "7.3.4"
     tslib "^2.3.0"
 
-"@nrwl/eslint-plugin-nx@14.1.1":
-  version "14.1.1"
-  resolved "https://registry.yarnpkg.com/@nrwl/eslint-plugin-nx/-/eslint-plugin-nx-14.1.1.tgz#83385c4de7281c57737130038ff1c7db7e66f228"
-  integrity sha512-+v5WEs5Ka8uCAAJV0T0yDIByjcWa/ro7savgxHs0Hpj1KVKy1Fo3E7uZR7545gPFtKPr7EYznn59c/yIj1o4ZQ==
+"@nrwl/eslint-plugin-nx@14.1.4":
+  version "14.1.4"
+  resolved "https://registry.yarnpkg.com/@nrwl/eslint-plugin-nx/-/eslint-plugin-nx-14.1.4.tgz#4a9f7ae291d863fdc0e70b74d036b599c374e133"
+  integrity sha512-tuE+MXU2o9qRt8734iuuONC8PCnWt1g+iQ0Ywg8O7zwsnpsjNGWoeq5rcNc6C6FrnnbDJQt78aPbk1jzuwKGxw==
   dependencies:
-    "@nrwl/devkit" "14.1.1"
-    "@nrwl/workspace" "14.1.1"
+    "@nrwl/devkit" "14.1.4"
+    "@nrwl/workspace" "14.1.4"
     "@typescript-eslint/experimental-utils" "~5.18.0"
     chalk "4.1.0"
     confusing-browser-globals "^1.0.9"
 
-"@nrwl/jest@14.1.1":
-  version "14.1.1"
-  resolved "https://registry.yarnpkg.com/@nrwl/jest/-/jest-14.1.1.tgz#179aea798c2c9c284bdf5246b3b7e2a7c12fe8f1"
-  integrity sha512-F2ruXro5xQT4HY7b4beHCCCPW8Cc0STCrJ++AyhZzg/0xiOqTnkyx0GuBIyNG2IoC4FcAGFdsRl84WWpKzLC3w==
+"@nrwl/jest@14.1.4":
+  version "14.1.4"
+  resolved "https://registry.yarnpkg.com/@nrwl/jest/-/jest-14.1.4.tgz#c69ad97913fba78ae9eabce83c9cec324a29881b"
+  integrity sha512-Me8r3QY080gVtEtD3F3FkQI7NU0MJl1PjU+qEcBejk5+NJD31LtPoIW4XHYdep/dPC/Og+m+QWopKK97K7Yuaw==
   dependencies:
     "@jest/reporters" "27.5.1"
     "@jest/test-result" "27.5.1"
-    "@nrwl/devkit" "14.1.1"
+    "@nrwl/devkit" "14.1.4"
     chalk "4.1.0"
     identity-obj-proxy "3.0.0"
     jest-config "27.5.1"
@@ -1196,15 +1196,15 @@
     rxjs "^6.5.4"
     tslib "^2.3.0"
 
-"@nrwl/js@14.1.1":
-  version "14.1.1"
-  resolved "https://registry.yarnpkg.com/@nrwl/js/-/js-14.1.1.tgz#02a9c73d30301f74b4d55aeeb161ea755976282b"
-  integrity sha512-TK99dSBuhyBx3G9ih3bZLAmmkUQwrVw8WiNTVPLsZSHaSlJH4dcc4supHUPYUrNU7Kkl/YaFOL9KUiaFJ+e74w==
+"@nrwl/js@14.1.4":
+  version "14.1.4"
+  resolved "https://registry.yarnpkg.com/@nrwl/js/-/js-14.1.4.tgz#08f857c01fa343b45afe57be2bf05c7d8c976fbf"
+  integrity sha512-d3rgi/WuE1ZMWoKDtHQD9DJL918s6pQX7u3Jq8HyWt8w7bOxfwfmFs0b3J80tkQpgfBNTXWEaFdsml9+ZQhGTw==
   dependencies:
-    "@nrwl/devkit" "14.1.1"
-    "@nrwl/jest" "14.1.1"
-    "@nrwl/linter" "14.1.1"
-    "@nrwl/workspace" "14.1.1"
+    "@nrwl/devkit" "14.1.4"
+    "@nrwl/jest" "14.1.4"
+    "@nrwl/linter" "14.1.4"
+    "@nrwl/workspace" "14.1.4"
     "@parcel/watcher" "2.0.4"
     chalk "4.1.0"
     fast-glob "3.2.7"
@@ -1215,27 +1215,27 @@
     source-map-support "0.5.19"
     tree-kill "1.2.2"
 
-"@nrwl/linter@14.1.1":
-  version "14.1.1"
-  resolved "https://registry.yarnpkg.com/@nrwl/linter/-/linter-14.1.1.tgz#784e5d0c1a237a4920c1ebefb029e5da0f889094"
-  integrity sha512-xyhsxGVTHH7KRcw244BR6T3/sp4WRxSrft5wHR2jFcmPgfTAN0Px7FOR8c/c2eIRS89zECtrehQeLcF8T8nsIA==
+"@nrwl/linter@14.1.4":
+  version "14.1.4"
+  resolved "https://registry.yarnpkg.com/@nrwl/linter/-/linter-14.1.4.tgz#6e10da0b8e2ea3b38668cc1ac77b67b633c8be8f"
+  integrity sha512-DUChINM9aoR3nuoSjV2vMoaFrM6PwPamEnN0WFowO4x+DRpEdp4I5IPpoSCyXTnrQB9EUVWHBo0vgeYILtgKlA==
   dependencies:
-    "@nrwl/devkit" "14.1.1"
-    "@nrwl/jest" "14.1.1"
+    "@nrwl/devkit" "14.1.4"
+    "@nrwl/jest" "14.1.4"
     "@phenomnomnominal/tsquery" "4.1.1"
     tmp "~0.2.1"
     tslib "^2.3.0"
 
-"@nrwl/node@14.1.1":
-  version "14.1.1"
-  resolved "https://registry.yarnpkg.com/@nrwl/node/-/node-14.1.1.tgz#5995a7c1c12152a66f05df474955cb9fd23b2a3c"
-  integrity sha512-2aSHeSIgAk8roc5w7ZH3DNY7Z8j18u4bM7EZAPFl6ryveF7TqIIIanohNVgw3JY/1huyAIja937jvPkxc2yqAA==
+"@nrwl/node@14.1.4":
+  version "14.1.4"
+  resolved "https://registry.yarnpkg.com/@nrwl/node/-/node-14.1.4.tgz#c23337570a50a23747bd44cf50c832c3c0a4777e"
+  integrity sha512-Exrq+XDz1+tej+DzhOFl2buFgj5mhYixIj1Da0E6lBEb6x7i1DC8niaAOtU7c2YAQoofXNM4THQI+U7MIPo2Kw==
   dependencies:
-    "@nrwl/devkit" "14.1.1"
-    "@nrwl/jest" "14.1.1"
-    "@nrwl/js" "14.1.1"
-    "@nrwl/linter" "14.1.1"
-    "@nrwl/workspace" "14.1.1"
+    "@nrwl/devkit" "14.1.4"
+    "@nrwl/jest" "14.1.4"
+    "@nrwl/js" "14.1.4"
+    "@nrwl/linter" "14.1.4"
+    "@nrwl/workspace" "14.1.4"
     chalk "4.1.0"
     copy-webpack-plugin "^9.0.1"
     enhanced-resolve "^5.8.3"
@@ -1268,21 +1268,21 @@
     strip-json-comments "^3.1.1"
     tar "6.1.11"
 
-"@nrwl/tao@14.1.1":
-  version "14.1.1"
-  resolved "https://registry.yarnpkg.com/@nrwl/tao/-/tao-14.1.1.tgz#56b4d39c8ca1e1ca04ac3defb2c8f98ac2bd188b"
-  integrity sha512-sMD2Ada6goyAClRW5d8ODN78Z8uPMhMdC5axBrhDlb2h+obNVI2S1d6G9Hp72KxlnujpI7wQdjK+CuKwpc1KAw==
+"@nrwl/tao@14.1.4":
+  version "14.1.4"
+  resolved "https://registry.yarnpkg.com/@nrwl/tao/-/tao-14.1.4.tgz#20902811c5712732d2944a8e0c4cde031e631694"
+  integrity sha512-Dk8/CM1/GTCYBuA5RJ59Vz1OJGK3Tf4KVE3QS7UpEkR/iWTPDmTtrcQmTLSgtX+tYgca5dMWHV9WfiJjKW2/ow==
   dependencies:
-    nx "14.1.1"
+    nx "14.1.4"
 
-"@nrwl/workspace@14.1.1":
-  version "14.1.1"
-  resolved "https://registry.yarnpkg.com/@nrwl/workspace/-/workspace-14.1.1.tgz#5945836e3d75a8233141c2e33042e2a76618d0d8"
-  integrity sha512-ELJq6m67X+wYvSyPMgudDlU1X6Zbyn2nGMTsPmULHPrtg49FRcrZ7TWH5YTA/LkkV5IY0xGwY9UNlyYGsZNj4Q==
+"@nrwl/workspace@14.1.4":
+  version "14.1.4"
+  resolved "https://registry.yarnpkg.com/@nrwl/workspace/-/workspace-14.1.4.tgz#ec5bfb05d00e7f7bb9eb45b5821ca8f93dad8f86"
+  integrity sha512-J/mcdlOPu5dkGoXDrGA1pPdEGFqYepRgZSoR+fSWlJT0Z4nb5C9aaXnu6OPl/8qwYFzAmQ5xsrqaaXQqtUHpQQ==
   dependencies:
-    "@nrwl/devkit" "14.1.1"
-    "@nrwl/jest" "14.1.1"
-    "@nrwl/linter" "14.1.1"
+    "@nrwl/devkit" "14.1.4"
+    "@nrwl/jest" "14.1.4"
+    "@nrwl/linter" "14.1.4"
     "@parcel/watcher" "2.0.4"
     chalk "4.1.0"
     chokidar "^3.5.1"
@@ -1297,7 +1297,7 @@
     ignore "^5.0.4"
     minimatch "3.0.4"
     npm-run-path "^4.0.1"
-    nx "14.1.1"
+    nx "14.1.4"
     open "^8.4.0"
     rxjs "^6.5.4"
     semver "7.3.4"
@@ -7751,13 +7751,13 @@ nwsapi@^2.0.7, nwsapi@^2.2.0:
   resolved "https://registry.yarnpkg.com/nwsapi/-/nwsapi-2.2.0.tgz#204879a9e3d068ff2a55139c2c772780681a38b7"
   integrity sha512-h2AatdwYH+JHiZpv7pt/gSX1XoRGb7L/qSIeuqA6GwYoF9w1vP1cw42TO0aI2pNyshRK5893hNSl+1//vHK7hQ==
 
-nx@14.1.1:
-  version "14.1.1"
-  resolved "https://registry.yarnpkg.com/nx/-/nx-14.1.1.tgz#91b4076f8c268ec13acf1cbf5821f0a3fcddb473"
-  integrity sha512-+fZ7Bi2qhmP03I0dz6/cIOXPSwKjJD+xv3MBW4Ex9MtsW0BnMQ7bJOCjn0Nuk29oaz5NnojpXiens8UcZDQSAQ==
+nx@14.1.4:
+  version "14.1.4"
+  resolved "https://registry.yarnpkg.com/nx/-/nx-14.1.4.tgz#83bfb7564604eb26a78b3f5718cb2f90faeaaf4f"
+  integrity sha512-cYULObHKIbDbvxUnxn0tVbBlM8Vzg2u9sZYpmL6TEVF/Xbj3PQi8oyazc2/dU5Qw319lqMJcZonG2ihv9yEGKg==
   dependencies:
-    "@nrwl/cli" "14.1.1"
-    "@nrwl/tao" "14.1.1"
+    "@nrwl/cli" "14.1.4"
+    "@nrwl/tao" "14.1.4"
     "@parcel/watcher" "2.0.4"
     "@swc-node/register" "^1.4.2"
     "@swc/core" "^1.2.173"
