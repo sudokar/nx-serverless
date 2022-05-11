@@ -8923,10 +8923,10 @@ serialize-javascript@^6.0.0:
   dependencies:
     randombytes "^2.1.0"
 
-serverless-esbuild@1.26.2:
-  version "1.26.2"
-  resolved "https://registry.yarnpkg.com/serverless-esbuild/-/serverless-esbuild-1.26.2.tgz#751fee753e3bcefa75d3610f18fdc257197ab89a"
-  integrity sha512-/Qqo2+NhBms+qKf94+9hCFgBOQxhgnVlJU4pKfFUhUmc1H7e6r58wjLwK3ohmoJJPZmoW5S45MsI9YbT0fn+HQ==
+serverless-esbuild@1.27.0:
+  version "1.27.0"
+  resolved "https://registry.yarnpkg.com/serverless-esbuild/-/serverless-esbuild-1.27.0.tgz#c3d08f8c7d6cdb10f5a9394374b3d99aa31e35e3"
+  integrity sha512-G8XkxydS4a2Z/b4/5nbOm5az1aracnvrpG2uulfqRU7dZ0GoC0anUOH4Alwo7m+VXENe/JbWyecRONlItR7pyQ==
   dependencies:
     archiver "^5.3.0"
     bestzip "^2.2.0"
