@@ -53,7 +53,7 @@
     "jest": "28.1.0",
     "lint-staged": "12.4.1",
     "prettier": "2.6.2",
-    "serverless": "3.18.1",
+    "serverless": "3.18.2",
     "serverless-offline": "8.8.0",
     "serverless-esbuild": "1.28.0",
     "serverless-jest-plugin": "0.4.0",
