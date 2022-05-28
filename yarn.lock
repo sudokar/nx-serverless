@@ -2281,7 +2281,7 @@ anymatch@^2.0.0:
     micromatch "^3.1.4"
     normalize-path "^2.1.1"
 
-anymatch@^3.0.3, anymatch@~3.1.2:
+anymatch@^3.0.3, anymatch@^3.1.2, anymatch@~3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/anymatch/-/anymatch-3.1.2.tgz#c0557c096af32f106198f4f4e2a383537e378716"
   integrity sha512-P43ePfOAIupkguHUycrc4qJ9kz8ZiuOUijaETwX7THt0Y/GNK7v0aa8rY816xWjZ7rJdA5XdMcpVFTKMq+RvWg==
@@ -8929,11 +8929,12 @@ serialize-javascript@^6.0.0:
   dependencies:
     randombytes "^2.1.0"
 
-serverless-esbuild@1.28.1:
-  version "1.28.1"
-  resolved "https://registry.yarnpkg.com/serverless-esbuild/-/serverless-esbuild-1.28.1.tgz#8686eef689d7a10bbac42ffb2b5f888cd9765ea1"
-  integrity sha512-NMI2svhZqvI5EfCtxQhB7Dv+tguctpVf2Da4CAx/Ee8Yxq9shC/Oh+wHDiF6wuylLWDbg2bZaSZKjRAHIPzf9Q==
+serverless-esbuild@1.30.0:
+  version "1.30.0"
+  resolved "https://registry.yarnpkg.com/serverless-esbuild/-/serverless-esbuild-1.30.0.tgz#4e3462ac34d17c596a9c34b5fd8e4111d0107a58"
+  integrity sha512-26gRwmGbmtZMFp591neNhRE2HfbeV4hq/ahsztgB6Hnl6EEQPEVVrDAZOH22Two/q1jDZeznCekIRjn5VrOZkw==
   dependencies:
+    anymatch "^3.1.2"
     archiver "^5.3.0"
     bestzip "^2.2.0"
     chokidar "^3.4.3"

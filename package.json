@@ -55,7 +55,7 @@
     "prettier": "2.6.2",
     "serverless": "3.18.2",
     "serverless-offline": "8.8.0",
-    "serverless-esbuild": "1.28.1",
+    "serverless-esbuild": "1.30.0",
     "serverless-jest-plugin": "0.4.0",
     "ts-jest": "28.0.3",
     "ts-loader": "9.3.0",
