@@ -28,7 +28,7 @@
   "dependencies": {},
   "devDependencies": {
     "@aws-sdk/types": "3.110.0",
-    "@jest/transform": "28.1.1",
+    "@jest/transform": "28.1.2",
     "@nrwl/cli": "14.3.6",
     "@nrwl/devkit": "14.3.6",
     "@nrwl/eslint-plugin-nx": "14.3.6",
@@ -50,7 +50,7 @@
     "eslint": "8.18.0",
     "eslint-config-prettier": "8.5.0",
     "husky": "7.0.4",
-    "jest": "28.1.1",
+    "jest": "28.1.2",
     "lint-staged": "12.5.0",
     "prettier": "2.7.1",
     "serverless": "3.19.0",
