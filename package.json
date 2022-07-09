@@ -46,7 +46,7 @@
     "@types/webpack": "5.28.0",
     "@typescript-eslint/eslint-plugin": "5.30.5",
     "@typescript-eslint/parser": "5.30.5",
-    "esbuild": "0.14.47",
+    "esbuild": "0.14.48",
     "eslint": "8.19.0",
     "eslint-config-prettier": "8.5.0",
     "husky": "7.0.4",
