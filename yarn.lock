@@ -8684,10 +8684,10 @@ serialize-javascript@^6.0.0:
   dependencies:
     randombytes "^2.1.0"
 
-serverless-esbuild@1.31.0:
-  version "1.31.0"
-  resolved "https://registry.yarnpkg.com/serverless-esbuild/-/serverless-esbuild-1.31.0.tgz#a7c1aae97b52ec57ecf69c8e4affb098b3e79144"
-  integrity sha512-f+FyVXpwU5XILmcPh8TA05xKsWN2y7wicwEVoSJ7wGHdfyOIB1W3gtGDhuKk8YuUEXVNMbntFW6xkiJI9hiEwg==
+serverless-esbuild@1.32.0:
+  version "1.32.0"
+  resolved "https://registry.yarnpkg.com/serverless-esbuild/-/serverless-esbuild-1.32.0.tgz#3210e6d41a60a0c3b557bde9577762de7868781f"
+  integrity sha512-aLyAUairiRvOIalLqu2TayKY/gIDAN/L9qFPzv5n7PHEfVEg0lt5/V3b+nzw6HoRra6MlLm5s20BwET1IiSkdA==
   dependencies:
     anymatch "^3.1.2"
     archiver "^5.3.0"
