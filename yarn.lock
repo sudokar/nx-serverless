@@ -8747,10 +8747,10 @@ serialize-javascript@^6.0.0:
   dependencies:
     randombytes "^2.1.0"
 
-serverless-esbuild@1.32.5:
-  version "1.32.5"
-  resolved "https://registry.yarnpkg.com/serverless-esbuild/-/serverless-esbuild-1.32.5.tgz#833b9ddb4917edf00caabb92ad6e52c70bcec307"
-  integrity sha512-l8Tih/3W+cLLlRqJULCuEp9QHQlCwV+auAu9HL0y6KdU2jl2NCrTq8UTjhKUd4MYkVvik6ljc4ZGeZhGLfobgg==
+serverless-esbuild@1.32.6:
+  version "1.32.6"
+  resolved "https://registry.yarnpkg.com/serverless-esbuild/-/serverless-esbuild-1.32.6.tgz#5825fc2ad5bc60f313759eb580f653fc1ad0d01a"
+  integrity sha512-SsvarSLwhL1/qaDk4QTsaGGR8ozRaDa1bswvNf54K2kA94k4evSWqUPuPvyzAz2zFO351DgrQM6vGnSbqCQb6g==
   dependencies:
     acorn "^8.7.1"
     acorn-walk "^8.2.0"
