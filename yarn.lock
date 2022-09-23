@@ -18,10 +18,10 @@
     "@jridgewell/gen-mapping" "^0.1.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@aws-sdk/types@3.171.0":
-  version "3.171.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/types/-/types-3.171.0.tgz#2463d655636cbcf9cf5bb01d02d8217a5975948a"
-  integrity sha512-Yv5Wn/pbjMBST2jPHWPczmVbOLq8yFQVRyy1zGfsg1ETn25nGPvGBwqOkWcuz229KAcdUvFdRV9xaQCN3Lbo+Q==
+"@aws-sdk/types@3.178.0":
+  version "3.178.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/types/-/types-3.178.0.tgz#2b79d705be218f8c9b5829ec71284549c37733be"
+  integrity sha512-CrHxHzXSEr/Z3NLFvJgSGHGcD9tYUZ0Rhp8tFCSpD3TpBo3/Y7RIvqaEPvECsL52UEloeBhQf65AO8590YkVmQ==
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.12.13", "@babel/code-frame@^7.16.7", "@babel/code-frame@^7.18.6":
   version "7.18.6"
