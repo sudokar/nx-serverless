@@ -1478,10 +1478,10 @@
   resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-1.0.3.tgz#472eaab5f15c1ffdd7f8628bd4c4f753995ec79e"
   integrity sha512-yOlFc+7UtL/89t2ZhjPvvB/DeAr3r+Dq58IgzsFkOAvVC6NMJXmCGjbptdXdR9qsX7pKcTL+s87FtYREi2dEEQ==
 
-"@types/aws-lambda@8.10.105":
-  version "8.10.105"
-  resolved "https://registry.yarnpkg.com/@types/aws-lambda/-/aws-lambda-8.10.105.tgz#e27fc7bff65b6c5ef6d7fe82b587390afefb8397"
-  integrity sha512-ExlmTSKybRSQZ2pDBHQqJebqUg5CsE5ABFsKN+2aN6dezra6X6rjhWAxNI0e/2Qs6b+tZoU/tX5sBVGuVu4O6w==
+"@types/aws-lambda@8.10.106":
+  version "8.10.106"
+  resolved "https://registry.yarnpkg.com/@types/aws-lambda/-/aws-lambda-8.10.106.tgz#8f64c61c978e46a592044b5a697cb80ea9a542d3"
+  integrity sha512-yzgMaql7aW1by1XuhKhovuhLyK/1A60lapFXDXXBeHmoyRGQFO2T8lkL3g8hAhHoW5PEvqPJFWPd8jvXiRnxeQ==
 
 "@types/babel__core@^7.1.0", "@types/babel__core@^7.1.14":
   version "7.1.19"
