@@ -529,11 +529,6 @@
     "@aws-sdk/types" "3.198.0"
     tslib "^2.3.1"
 
-"@aws-sdk/types@3.197.0":
-  version "3.197.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/types/-/types-3.197.0.tgz#5a6340cc5841b9ff9a56d316ef8ccaa7efe88809"
-  integrity sha512-ZM6s4AIWLWeKiuigPCSbSSBn9i7s1o+/U/dRpLax3bSpH7E6PU5hEnIXEzWsIXWU1/8bmTttY8qmYEx3RCmbpw==
-
 "@aws-sdk/types@3.198.0", "@aws-sdk/types@^3.1.0", "@aws-sdk/types@^3.110.0":
   version "3.198.0"
   resolved "https://registry.yarnpkg.com/@aws-sdk/types/-/types-3.198.0.tgz#4e4f5df1bf362dfe64e7bdaf37ba614c61618356"
