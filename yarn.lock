@@ -81,7 +81,7 @@
     "@aws-sdk/types" "3.198.0"
     tslib "^2.3.1"
 
-"@aws-sdk/client-lambda@^3.198.0":
+"@aws-sdk/client-lambda@^3.199.0":
   version "3.199.0"
   resolved "https://registry.yarnpkg.com/@aws-sdk/client-lambda/-/client-lambda-3.199.0.tgz#d0f569ed617c872b418c3eb61ec4466a371a72cd"
   integrity sha512-BMIBKUnZqV1Ylabjbr6agxdKqRRD3Rkx8G/AChdW7ghNvcpVsEZvWj+YcSXjXUmi5TKcL/7wuz2bzsYwrw995Q==
@@ -7621,7 +7621,7 @@ jmespath@0.16.0:
   resolved "https://registry.yarnpkg.com/jmespath/-/jmespath-0.16.0.tgz#b15b0a85dfd4d930d43e69ed605943c802785076"
   integrity sha512-9FzQjJ7MATs1tSpnco1K6ayiYE3figslrXA72G2HQ/n76RzvYlofyi5QM+iX4YRs/pu3yzxlVQSST23+dMDknw==
 
-jose@^4.10.3:
+jose@^4.10.4:
   version "4.10.4"
   resolved "https://registry.yarnpkg.com/jose/-/jose-4.10.4.tgz#5f934b2fcf2995776e8f671f7523c6ac52c138f7"
   integrity sha512-eBH77Xs9Yc/oTDvukhAEDVMijhekPuNktXJL4tUlB22jqKP1k48v5nmsUmc8feoJPsxB3HsfEt2LbVSoz+1mng==
@@ -10192,12 +10192,12 @@ serverless-jest-plugin@0.4.0:
     lambda-wrapper "^0.3.0"
     yaml-edit "^0.1.3"
 
-serverless-offline@11.2.1:
-  version "11.2.1"
-  resolved "https://registry.yarnpkg.com/serverless-offline/-/serverless-offline-11.2.1.tgz#f24b3ec5a0860c4c37a10d87461e152906407773"
-  integrity sha512-/yipFaiibiuZhpxfrtLb/ylyl7da4x7g6Taiy/ve2hT/TMJhTvRZA7C74JjPPISt9cDJVYLxewbaDcoHYfe29w==
+serverless-offline@11.2.2:
+  version "11.2.2"
+  resolved "https://registry.yarnpkg.com/serverless-offline/-/serverless-offline-11.2.2.tgz#ff10e93535cd5b3ceaa2d47b85acb29f8de178cf"
+  integrity sha512-u+pr+NTgOYg98wQt1t9kJ/L6bB1yY7/il3X9y4KQIDmNI1U4I4naHsYXM7UXdjdieKpdGc3TSplVQ4yQKj9H5g==
   dependencies:
-    "@aws-sdk/client-lambda" "^3.198.0"
+    "@aws-sdk/client-lambda" "^3.199.0"
     "@hapi/boom" "^10.0.0"
     "@hapi/h2o2" "^10.0.0"
     "@hapi/hapi" "^20.2.2"
@@ -10207,7 +10207,7 @@ serverless-offline@11.2.1:
     execa "^6.1.0"
     fs-extra "^10.1.0"
     java-invoke-local "0.0.6"
-    jose "^4.10.3"
+    jose "^4.10.4"
     js-string-escape "^1.0.1"
     jsonpath-plus "^7.2.0"
     jsonschema "^1.4.1"
