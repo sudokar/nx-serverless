@@ -3334,7 +3334,7 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
-bestzip@^2.2.0:
+bestzip@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/bestzip/-/bestzip-2.2.1.tgz#6f14c48e7abf57dfac60aecb45ee4571b77b37a7"
   integrity sha512-XdAb87RXqOqF7C6UgQG9IqpEHJvS6IOUo0bXWEAebjSSdhDjsbcqFKdHpn5Q7QHz2pGr3Zmw4wgG3LlzdyDz7w==
@@ -3719,7 +3719,7 @@ child-process-ext@^2.1.1:
     split2 "^3.1.1"
     stream-promise "^3.2.0"
 
-"chokidar@>=3.0.0 <4.0.0", chokidar@^3.4.3, chokidar@^3.5.1, chokidar@^3.5.3:
+"chokidar@>=3.0.0 <4.0.0", chokidar@^3.5.1, chokidar@^3.5.3:
   version "3.5.3"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.5.3.tgz#1cf37c8707b932bd1af1ae22c0432e2acd1903bd"
   integrity sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==
@@ -5960,7 +5960,7 @@ globals@^13.15.0, globals@^13.6.0:
   dependencies:
     type-fest "^0.20.2"
 
-globby@^11.0.1, globby@^11.1.0:
+globby@^11.0.4, globby@^11.1.0:
   version "11.1.0"
   resolved "https://registry.yarnpkg.com/globby/-/globby-11.1.0.tgz#bd4be98bb042f83d796f7e3811991fbe82a0d34b"
   integrity sha512-jhIXaOzy1sb8IyocaruWSn1TjmnBVs8Ayhcy83rmxNJ8q2uWKCAj3CnJY+KpGSXCueAPc0i05kVvVKtP1t9S3g==
@@ -9639,10 +9639,10 @@ quick-lru@^5.1.1:
   resolved "https://registry.yarnpkg.com/quick-lru/-/quick-lru-5.1.1.tgz#366493e6b3e42a3a6885e2e99d18f80fb7a8c932"
   integrity sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==
 
-ramda@^0.27.0:
-  version "0.27.2"
-  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.27.2.tgz#84463226f7f36dc33592f6f4ed6374c48306c3f1"
-  integrity sha512-SbiLPU40JuJniHexQSAgad32hfwd+DRUdwF2PlVuI5RZD0/vahUco7R8vD86J/tcEKKF9vZrUVwgtmGCqlCKyA==
+ramda@^0.28.0:
+  version "0.28.0"
+  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.28.0.tgz#acd785690100337e8b063cab3470019be427cc97"
+  integrity sha512-9QnLuG/kPVgWvMQ4aODhsBUFKOUmnbUnsSXACv+NCQZcHbeb+v8Lodp8OVxtRULN1/xOyYLLaL6npE6dMq5QTA==
 
 randombytes@^2.1.0:
   version "2.1.0"
@@ -10195,22 +10195,22 @@ serve-static@1.15.0:
     parseurl "~1.3.3"
     send "0.18.0"
 
-serverless-esbuild@1.32.8:
-  version "1.32.8"
-  resolved "https://registry.yarnpkg.com/serverless-esbuild/-/serverless-esbuild-1.32.8.tgz#fc2a4da6e5264f5c50676cfbb176c15029d612eb"
-  integrity sha512-OR9GXr/aCDvv1pk6l7WqmD5eA+bz9kijyho/c0iyfVpt8ky+CaQHFc+DwS9ajoaq1mHvwUQJIx5zi6Z0A/K1bQ==
+serverless-esbuild@1.33.1:
+  version "1.33.1"
+  resolved "https://registry.yarnpkg.com/serverless-esbuild/-/serverless-esbuild-1.33.1.tgz#3788538cb26587ec8f15d5bc9f6199e75863bf56"
+  integrity sha512-kdc/+n7SvrXrx3ktqAzC6yJHdZU6nBOE+d/Ftis1Z+Q7ez9QSRUylVe3A7LHAodnHeZga/vODvzv5hNgm0z/4A==
   dependencies:
-    acorn "^8.7.1"
+    acorn "^8.8.0"
     acorn-walk "^8.2.0"
     anymatch "^3.1.2"
-    archiver "^5.3.0"
-    bestzip "^2.2.0"
-    chokidar "^3.4.3"
+    archiver "^5.3.1"
+    bestzip "^2.2.1"
+    chokidar "^3.5.3"
     fs-extra "^10.1.0"
-    globby "^11.0.1"
+    globby "^11.0.4"
     p-map "^4.0.0"
-    ramda "^0.27.0"
-    semver "^7.3.5"
+    ramda "^0.28.0"
+    semver "^7.3.7"
 
 serverless-jest-plugin@0.4.0:
   version "0.4.0"
