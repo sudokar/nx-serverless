@@ -42,3 +42,6 @@ Thumbs.db
 .vscode
 .dynamodb
 .webpack
+
+# Nx
+migrations.json
