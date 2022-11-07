@@ -11,7 +11,7 @@ export const baseServerlessConfiguration: Partial<Serverless> = {
     esbuild: {
       bundle: true,
       minify: true,
-      target: 'node14',
+      target: 'node16',
       packager: 'yarn',
       sourcemap: true,
       sourcesContent: false,
@@ -19,7 +19,7 @@ export const baseServerlessConfiguration: Partial<Serverless> = {
   },
   provider: {
     name: 'aws',
-    runtime: 'nodejs14.x',
+    runtime: 'nodejs16.x',
     memorySize: 128,
     apiGateway: {
       minimumCompressionSize: 1024,
