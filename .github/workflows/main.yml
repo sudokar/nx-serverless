@@ -29,19 +29,19 @@ jobs:
           node-version: '16.x'
 
       - name: Install packages
-        run: yarn install --frozen-lockfile
+        run: yarn install --immutable
 
       - name: Generate stack
-        run: yarn nx workspace-generator serverless test-stack
+        run: npx nx workspace-generator serverless test-stack
 
       - name: Generate library
-        run: yarn nx g @nrwl/node:lib test-lib --tags lib
+        run: npx nx g @nrwl/node:lib test-lib --tags lib
 
       - name: Linting
-        run: yarn nx run-many --target=lint --all
+        run: npx nx run-many --target=lint --all
 
       - name: Run tests
-        run: yarn nx run-many --target=test --all
+        run: npx nx run-many --target=test --all
 
       - name: Sls package
-        run: yarn nx run-many --target=build --all --stage=ci
+        run: npx nx run-many --target=build --all --stage=ci
