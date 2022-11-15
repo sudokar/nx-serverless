@@ -3072,10 +3072,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/serverless@npm:3.12.8":
-  version: 3.12.8
-  resolution: "@types/serverless@npm:3.12.8"
-  checksum: b67b2a7f2759f52197e951dc0106de0e7959700d369fc0de8491d60ff543856570b3dc12aafe3f1c7d8dd7d270d4a94377da0d3cca7f8cc878272e469af3e2be
+"@types/serverless@npm:3.12.9":
+  version: 3.12.9
+  resolution: "@types/serverless@npm:3.12.9"
+  checksum: 71ad82bbfe0a4bddbf02241e23ae7e16551971a6f59ef616cea94dde8452b7e14bd45b63bb8e51c1a18377088aa5ff6547ebb924cca12b37ed68961273fce488
   languageName: node
   linkType: hard
 
@@ -11688,7 +11688,7 @@ __metadata:
     "@types/aws-lambda": 8.10.108
     "@types/jest": 28.1.8
     "@types/node": 16.18.3
-    "@types/serverless": 3.12.8
+    "@types/serverless": 3.12.9
     "@types/terser-webpack-plugin": 5.0.4
     "@types/webpack": 5.28.0
     "@typescript-eslint/eslint-plugin": 5.43.0
