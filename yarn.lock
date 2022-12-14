@@ -11762,7 +11762,7 @@ __metadata:
     lint-staged: 13.1.0
     prettier: 2.8.1
     serverless: 3.25.1
-    serverless-esbuild: 1.33.2
+    serverless-esbuild: 1.34.0
     serverless-jest-plugin: 0.4.0
     serverless-offline: 11.6.0
     ts-jest: 28.0.8
@@ -13860,9 +13860,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"serverless-esbuild@npm:1.33.2":
-  version: 1.33.2
-  resolution: "serverless-esbuild@npm:1.33.2"
+"serverless-esbuild@npm:1.34.0":
+  version: 1.34.0
+  resolution: "serverless-esbuild@npm:1.34.0"
   dependencies:
     acorn: ^8.8.0
     acorn-walk: ^8.2.0
@@ -13876,8 +13876,12 @@ __metadata:
     ramda: ^0.28.0
     semver: ^7.3.7
   peerDependencies:
-    esbuild: ">=0.8 <0.16"
-  checksum: 0081e74f055353eb5311fbbae3a8ff2b507d5ba9bc8290de2ef562b9977d6ee1159df652603ea559d7720f71bcd43beca3eeac97ee2cf997c924aad37254dc4a
+    esbuild: ">=0.8 <0.17"
+    esbuild-node-externals: ^1.0.0
+  peerDependenciesMeta:
+    esbuild-node-externals:
+      optional: true
+  checksum: 443c00cdf3d92f2a0fdb9c79a797c89d4e28da37e7f37c9448484b89fcfbd8792f38cadc957d8667c97ea01e42530550b2c157c60f318cae4f7baa68ac95d92d
   languageName: node
   linkType: hard
 
