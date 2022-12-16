@@ -2991,10 +2991,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:16.18.9":
-  version: 16.18.9
-  resolution: "@types/node@npm:16.18.9"
-  checksum: 7dc9cb417869592b2ad64233d06cd3eda63b8ae31d72a0811e4f5ac5a2ef01feb4d4c91159481e506c7a56951981359e75069c7fae6f0de90fc0c3c8b69a36cd
+"@types/node@npm:16.18.10":
+  version: 16.18.10
+  resolution: "@types/node@npm:16.18.10"
+  checksum: 1b138616923e9a1c6d3806edf75714b605d2ec689357cdc675bc73816c508ff11b3c68df054b02a496c76654d8ed53add2e90816af39423431c73aa6eec06f29
   languageName: node
   linkType: hard
 
@@ -11748,7 +11748,7 @@ __metadata:
     "@nrwl/workspace": 15.3.3
     "@types/aws-lambda": 8.10.109
     "@types/jest": 28.1.8
-    "@types/node": 16.18.9
+    "@types/node": 16.18.10
     "@types/serverless": 3.12.9
     "@types/terser-webpack-plugin": 5.0.4
     "@types/webpack": 5.28.0
