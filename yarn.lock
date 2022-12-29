@@ -3638,7 +3638,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"acorn@npm:^8.4.1, acorn@npm:^8.5.0, acorn@npm:^8.7.1, acorn@npm:^8.8.0":
+"acorn@npm:^8.4.1, acorn@npm:^8.5.0, acorn@npm:^8.7.1, acorn@npm:^8.8.0, acorn@npm:^8.8.1":
   version: 8.8.1
   resolution: "acorn@npm:8.8.1"
   bin:
@@ -3853,7 +3853,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"anymatch@npm:^3.0.3, anymatch@npm:^3.1.2, anymatch@npm:~3.1.2":
+"anymatch@npm:^3.0.3, anymatch@npm:^3.1.3, anymatch@npm:~3.1.2":
   version: 3.1.3
   resolution: "anymatch@npm:3.1.3"
   dependencies:
@@ -7627,6 +7627,17 @@ __metadata:
     jsonfile: ^6.0.1
     universalify: ^2.0.0
   checksum: dc94ab37096f813cc3ca12f0f1b5ad6744dfed9ed21e953d72530d103cea193c2f81584a39e9dee1bea36de5ee66805678c0dddc048e8af1427ac19c00fffc50
+  languageName: node
+  linkType: hard
+
+"fs-extra@npm:^11.1.0":
+  version: 11.1.0
+  resolution: "fs-extra@npm:11.1.0"
+  dependencies:
+    graceful-fs: ^4.2.0
+    jsonfile: ^6.0.1
+    universalify: ^2.0.0
+  checksum: 5ca476103fa1f5ff4a9b3c4f331548f8a3c1881edaae323a4415d3153b5dc11dc6a981c8d1dd93eec8367ceee27b53f8bd27eecbbf66ffcdd04927510c171e7f
   languageName: node
   linkType: hard
 
@@ -11771,7 +11782,7 @@ __metadata:
     lint-staged: 13.1.0
     prettier: 2.8.1
     serverless: 3.26.0
-    serverless-esbuild: 1.34.0
+    serverless-esbuild: 1.35.0
     serverless-jest-plugin: 0.4.0
     serverless-offline: 11.6.0
     ts-jest: 28.0.8
@@ -13869,28 +13880,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"serverless-esbuild@npm:1.34.0":
-  version: 1.34.0
-  resolution: "serverless-esbuild@npm:1.34.0"
+"serverless-esbuild@npm:1.35.0":
+  version: 1.35.0
+  resolution: "serverless-esbuild@npm:1.35.0"
   dependencies:
-    acorn: ^8.8.0
+    acorn: ^8.8.1
     acorn-walk: ^8.2.0
-    anymatch: ^3.1.2
+    anymatch: ^3.1.3
     archiver: ^5.3.1
     bestzip: ^2.2.1
     chokidar: ^3.5.3
-    fs-extra: ^10.1.0
+    fs-extra: ^11.1.0
     globby: ^11.0.4
     p-map: ^4.0.0
     ramda: ^0.28.0
-    semver: ^7.3.7
+    semver: ^7.3.8
   peerDependencies:
     esbuild: ">=0.8 <0.17"
     esbuild-node-externals: ^1.0.0
   peerDependenciesMeta:
     esbuild-node-externals:
       optional: true
-  checksum: 443c00cdf3d92f2a0fdb9c79a797c89d4e28da37e7f37c9448484b89fcfbd8792f38cadc957d8667c97ea01e42530550b2c157c60f318cae4f7baa68ac95d92d
+  checksum: d9e7e034a7e8f46ce491912cf902fe0bd54d00fa41a29c71592833e48e600754c0ff15882ed0a543b6ed77f7551d5ed70449c005a5ce3ec43b1d092b985c31da
   languageName: node
   linkType: hard
 
