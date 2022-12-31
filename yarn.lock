@@ -11782,7 +11782,7 @@ __metadata:
     lint-staged: 13.1.0
     prettier: 2.8.1
     serverless: 3.26.0
-    serverless-esbuild: 1.35.0
+    serverless-esbuild: 1.35.1
     serverless-jest-plugin: 0.4.0
     serverless-offline: 11.6.0
     ts-jest: 28.0.8
@@ -13880,9 +13880,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"serverless-esbuild@npm:1.35.0":
-  version: 1.35.0
-  resolution: "serverless-esbuild@npm:1.35.0"
+"serverless-esbuild@npm:1.35.1":
+  version: 1.35.1
+  resolution: "serverless-esbuild@npm:1.35.1"
   dependencies:
     acorn: ^8.8.1
     acorn-walk: ^8.2.0
@@ -13901,7 +13901,7 @@ __metadata:
   peerDependenciesMeta:
     esbuild-node-externals:
       optional: true
-  checksum: d9e7e034a7e8f46ce491912cf902fe0bd54d00fa41a29c71592833e48e600754c0ff15882ed0a543b6ed77f7551d5ed70449c005a5ce3ec43b1d092b985c31da
+  checksum: 8c8999299470ccc5031151ddf1c9e21f9cba1c6d1752b3599457ccdb07380f701532beb975c379b062b9f34ce1b9c791f0ecb6fc759fe79a3515fc85a4a88985
   languageName: node
   linkType: hard
 
