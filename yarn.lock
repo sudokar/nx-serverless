@@ -7589,6 +7589,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fp-ts@npm:^2.13.1":
+  version: 2.13.1
+  resolution: "fp-ts@npm:2.13.1"
+  checksum: 618e0028aca9ff1d52b86f438499ccab149825bdab14c678d22c3e2ccbf9d36fd1f26d463bf0ae1e63f5cd79dd54c8218af2cca0daeea68b039307b751ae9563
+  languageName: node
+  linkType: hard
+
 "fraction.js@npm:^4.2.0":
   version: 4.2.0
   resolution: "fraction.js@npm:4.2.0"
@@ -11782,7 +11789,7 @@ __metadata:
     lint-staged: 13.1.0
     prettier: 2.8.1
     serverless: 3.26.0
-    serverless-esbuild: 1.35.1
+    serverless-esbuild: 1.35.2
     serverless-jest-plugin: 0.4.0
     serverless-offline: 11.6.0
     ts-jest: 28.0.8
@@ -13880,9 +13887,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"serverless-esbuild@npm:1.35.1":
-  version: 1.35.1
-  resolution: "serverless-esbuild@npm:1.35.1"
+"serverless-esbuild@npm:1.35.2":
+  version: 1.35.2
+  resolution: "serverless-esbuild@npm:1.35.2"
   dependencies:
     acorn: ^8.8.1
     acorn-walk: ^8.2.0
@@ -13890,6 +13897,7 @@ __metadata:
     archiver: ^5.3.1
     bestzip: ^2.2.1
     chokidar: ^3.5.3
+    fp-ts: ^2.13.1
     fs-extra: ^11.1.0
     globby: ^11.0.4
     p-map: ^4.0.0
@@ -13901,7 +13909,7 @@ __metadata:
   peerDependenciesMeta:
     esbuild-node-externals:
       optional: true
-  checksum: 8c8999299470ccc5031151ddf1c9e21f9cba1c6d1752b3599457ccdb07380f701532beb975c379b062b9f34ce1b9c791f0ecb6fc759fe79a3515fc85a4a88985
+  checksum: 370f594977a130f39090371e01fbb2f6338e61e617d7fe17ffe31cab909d135742d44591b05204d2c14c5ae715ec883682127a33da93d985dca295369ff11bc7
   languageName: node
   linkType: hard
 
