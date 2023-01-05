@@ -62,7 +62,7 @@ A monrepo style, modern boilerplate or template project for [Serverless framewor
 
 - [Nodejs](https://nodejs.org/) `protip: use nvm`
 
-  > :warning: **Version**: `lts/gallium (v16)`. If you're using [nvm](https://github.com/nvm-sh/nvm), run `nvm use` to ensure you're using the same Node version in local and in your lambda's runtime.
+  > :warning: **Version**: `lts/hydrogen (v18)`. If you're using [nvm](https://github.com/nvm-sh/nvm), run `nvm use` to ensure you're using the same Node version in local and in your lambda's runtime.
 
 - :package: Package Manager
 
