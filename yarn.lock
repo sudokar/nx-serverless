@@ -2403,8 +2403,8 @@ __metadata:
   linkType: hard
 
 "@hapi/hapi@npm:^21.0.0":
-  version: 21.2.0
-  resolution: "@hapi/hapi@npm:21.2.0"
+  version: 21.2.1
+  resolution: "@hapi/hapi@npm:21.2.1"
   dependencies:
     "@hapi/accept": ^6.0.0
     "@hapi/ammo": ^6.0.0
@@ -2424,7 +2424,7 @@ __metadata:
     "@hapi/teamwork": ^6.0.0
     "@hapi/topo": ^6.0.0
     "@hapi/validate": ^2.0.0
-  checksum: b48a615f93c5b0c9033878f6192b5b05f9edc5e58ed7a3c35ddb3e9113b3c86ff85661699b993e92e2f433c11bd4a43b9d3c19ff0b3bccd42ce8e6088592e0e3
+  checksum: 963ceba424ed5d2329b82123363a847082ee9a3c48970a8bd314fc65853113f33ca03f3afdfc877c35a596d59bdb4186b7efe652672f732a53f329a5063e0174
   languageName: node
   linkType: hard
 
