@@ -26,7 +26,7 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@aws-sdk/types": "3.257.0",
+    "@aws-sdk/types": "3.266.0",
     "@jest/transform": "28.1.3",
     "@nrwl/cli": "15.6.3",
     "@nrwl/devkit": "15.6.3",
