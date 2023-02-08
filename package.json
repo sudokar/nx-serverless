@@ -49,7 +49,7 @@
     "husky": "8.0.3",
     "jest": "28.1.3",
     "lint-staged": "13.1.1",
-    "prettier": "2.8.3",
+    "prettier": "2.8.4",
     "serverless": "3.27.0",
     "serverless-esbuild": "1.37.3",
     "serverless-jest-plugin": "0.4.0",
