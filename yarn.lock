@@ -5126,7 +5126,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aws-sdk@npm:^2.1303.0, aws-sdk@npm:^2.4.0":
+"aws-sdk@npm:^2.1326.0":
+  version: 2.1326.0
+  resolution: "aws-sdk@npm:2.1326.0"
+  dependencies:
+    buffer: 4.9.2
+    events: 1.1.1
+    ieee754: 1.1.13
+    jmespath: 0.16.0
+    querystring: 0.2.0
+    sax: 1.2.1
+    url: 0.10.3
+    util: ^0.12.4
+    uuid: 8.0.0
+    xml2js: 0.4.19
+  checksum: a999e8331e0ff064af9c6f48d84d02cc74926a733cf63baddbe4cefbf6c9d0da69e1bfc343b5845cb765c13e7fb7514b4bc0524d54e19c0e6018ebba9d0e1c17
+  languageName: node
+  linkType: hard
+
+"aws-sdk@npm:^2.4.0":
   version: 2.1323.0
   resolution: "aws-sdk@npm:2.1323.0"
   dependencies:
@@ -12935,7 +12953,7 @@ __metadata:
     jest: 28.1.3
     lint-staged: 13.1.2
     prettier: 2.8.4
-    serverless: 3.28.0
+    serverless: 3.28.1
     serverless-esbuild: 1.39.0
     serverless-jest-plugin: 0.4.0
     serverless-offline: 11.6.0
@@ -15159,9 +15177,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"serverless@npm:3.28.0":
-  version: 3.28.0
-  resolution: "serverless@npm:3.28.0"
+"serverless@npm:3.28.1":
+  version: 3.28.1
+  resolution: "serverless@npm:3.28.1"
   dependencies:
     "@serverless/dashboard-plugin": ^6.2.3
     "@serverless/platform-client": ^4.3.2
@@ -15169,7 +15187,7 @@ __metadata:
     ajv: ^8.12.0
     ajv-formats: ^2.1.1
     archiver: ^5.3.1
-    aws-sdk: ^2.1303.0
+    aws-sdk: ^2.1326.0
     bluebird: ^3.7.2
     cachedir: ^2.3.0
     chalk: ^4.1.2
@@ -15219,7 +15237,7 @@ __metadata:
   bin:
     serverless: bin/serverless.js
     sls: bin/serverless.js
-  checksum: c16765df48eef16a4f55f63f8e77a6b37586315fe755fe8bd39294baaff7256390131f7b07af35973913017b26ef55bf0cf5d27be62b4a24c38ae5cfb4318073
+  checksum: 04315f923c79e37c83fd83e8968408286e591863304cf3678138ec3828afac15b2ed486b6b52c9ad3f48f3bd9603854d625d79efc10f33bc8e154a6afc0c5796
   languageName: node
   linkType: hard
 
