@@ -4021,10 +4021,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:18.14.2":
+"@types/node@npm:*":
   version: 18.14.2
   resolution: "@types/node@npm:18.14.2"
   checksum: 53c07e721f6ae33de71306f6a0b75dae6066a4f55bd5484c93bd59ff25f0c5f004ceafeef509a4d0cb9e24a247efc34d50489bcc1b05a53ecc68e2fc088e65cb
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:18.14.4":
+  version: 18.14.4
+  resolution: "@types/node@npm:18.14.4"
+  checksum: 3f2f625777747b9f87e793eea5a8bbf1ac2c828846bda5811d07a457d55cfe6762239779759de61e7b7e917632b9ceee3f7ffd2a024117e7ec364dc1b4eb8d55
   languageName: node
   linkType: hard
 
@@ -12917,7 +12924,7 @@ __metadata:
     "@nrwl/workspace": 15.8.1
     "@types/aws-lambda": 8.10.111
     "@types/jest": 28.1.8
-    "@types/node": 18.14.2
+    "@types/node": 18.14.4
     "@types/serverless": 3.12.11
     "@typescript-eslint/eslint-plugin": 5.54.0
     "@typescript-eslint/parser": 5.54.0
