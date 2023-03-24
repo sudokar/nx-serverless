@@ -3665,6 +3665,47 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@serverless/utils@npm:^6.10.0":
+  version: 6.10.0
+  resolution: "@serverless/utils@npm:6.10.0"
+  dependencies:
+    archive-type: ^4.0.0
+    chalk: ^4.1.2
+    ci-info: ^3.8.0
+    cli-progress-footer: ^2.3.2
+    content-disposition: ^0.5.4
+    d: ^1.0.1
+    decompress: ^4.2.1
+    event-emitter: ^0.3.5
+    ext: ^1.7.0
+    ext-name: ^5.0.0
+    file-type: ^16.5.4
+    filenamify: ^4.3.0
+    get-stream: ^6.0.1
+    got: ^11.8.6
+    inquirer: ^8.2.5
+    js-yaml: ^4.1.0
+    jwt-decode: ^3.1.2
+    lodash: ^4.17.21
+    log: ^6.3.1
+    log-node: ^8.0.3
+    make-dir: ^3.1.0
+    memoizee: ^0.4.15
+    ms: ^2.1.3
+    ncjsm: ^4.3.2
+    node-fetch: ^2.6.9
+    open: ^8.4.2
+    p-event: ^4.2.0
+    supports-color: ^8.1.1
+    timers-ext: ^0.1.7
+    type: ^2.7.2
+    uni-global: ^1.0.0
+    uuid: ^8.3.2
+    write-file-atomic: ^4.0.2
+  checksum: 9c3416488c903635556e961b77dca6f6efac2f8e1b92825d2cd9d40b929f79ab95556f07afc8003f6934dbe457e611e5b6a28d4525b31d874f11c3087d9dc8e4
+  languageName: node
+  linkType: hard
+
 "@serverless/utils@npm:^6.8.2":
   version: 6.9.2
   resolution: "@serverless/utils@npm:6.9.2"
@@ -5166,7 +5207,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aws-sdk@npm:^2.1326.0, aws-sdk@npm:^2.4.0":
+"aws-sdk@npm:^2.1342.0":
+  version: 2.1342.0
+  resolution: "aws-sdk@npm:2.1342.0"
+  dependencies:
+    buffer: 4.9.2
+    events: 1.1.1
+    ieee754: 1.1.13
+    jmespath: 0.16.0
+    querystring: 0.2.0
+    sax: 1.2.1
+    url: 0.10.3
+    util: ^0.12.4
+    uuid: 8.0.0
+    xml2js: 0.4.19
+  checksum: 90cb0974550c04f6cb349f354994462c3b8f0797182aeeaecccb0137b67e20b93f3fe9ef18541c514c05c686f3d87ee0996ccf07f02ed1615a12f2ea2c2d2c3c
+  languageName: node
+  linkType: hard
+
+"aws-sdk@npm:^2.4.0":
   version: 2.1338.0
   resolution: "aws-sdk@npm:2.1338.0"
   dependencies:
@@ -7216,10 +7275,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv-expand@npm:^9.0.0":
-  version: 9.0.0
-  resolution: "dotenv-expand@npm:9.0.0"
-  checksum: 76f669b87da73d6980d1235cb18e9ccd94b294927784a0c06db5e9e98d1090b0605e75ade70880f0cd812af7f61e41367a80feea223d23fd3bd0b82f3409b9ed
+"dotenv-expand@npm:^10.0.0":
+  version: 10.0.0
+  resolution: "dotenv-expand@npm:10.0.0"
+  checksum: 2a38b470efe0abcb1ac8490421a55e1d764dc9440fd220942bce40965074f3fb00b585f4346020cb0f0f219966ee6b4ee5023458b3e2953fe5b3214de1b314ee
   languageName: node
   linkType: hard
 
@@ -9192,7 +9251,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graceful-fs@npm:^4.1.10, graceful-fs@npm:^4.1.11, graceful-fs@npm:^4.1.15, graceful-fs@npm:^4.1.2, graceful-fs@npm:^4.1.6, graceful-fs@npm:^4.2.0, graceful-fs@npm:^4.2.10, graceful-fs@npm:^4.2.4, graceful-fs@npm:^4.2.6, graceful-fs@npm:^4.2.9":
+"graceful-fs@npm:^4.1.10, graceful-fs@npm:^4.1.11, graceful-fs@npm:^4.1.15, graceful-fs@npm:^4.1.2, graceful-fs@npm:^4.1.6, graceful-fs@npm:^4.2.0, graceful-fs@npm:^4.2.11, graceful-fs@npm:^4.2.4, graceful-fs@npm:^4.2.6, graceful-fs@npm:^4.2.9":
   version: 4.2.11
   resolution: "graceful-fs@npm:4.2.11"
   checksum: ac85f94da92d8eb6b7f5a8b20ce65e43d66761c55ce85ac96df6865308390da45a8d3f0296dd3a663de65d30ba497bd46c696cc1e248c72b13d6d567138a4fc7
@@ -12992,7 +13051,7 @@ __metadata:
     jest: 28.1.3
     lint-staged: 13.2.0
     prettier: 2.8.7
-    serverless: 3.28.1
+    serverless: 3.29.0
     serverless-esbuild: 1.43.0
     serverless-jest-plugin: 0.4.0
     serverless-offline: 11.6.0
@@ -15218,17 +15277,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"serverless@npm:3.28.1":
-  version: 3.28.1
-  resolution: "serverless@npm:3.28.1"
+"serverless@npm:3.29.0":
+  version: 3.29.0
+  resolution: "serverless@npm:3.29.0"
   dependencies:
     "@serverless/dashboard-plugin": ^6.2.3
     "@serverless/platform-client": ^4.3.2
-    "@serverless/utils": ^6.8.2
+    "@serverless/utils": ^6.10.0
     ajv: ^8.12.0
     ajv-formats: ^2.1.1
     archiver: ^5.3.1
-    aws-sdk: ^2.1326.0
+    aws-sdk: ^2.1342.0
     bluebird: ^3.7.2
     cachedir: ^2.3.0
     chalk: ^4.1.2
@@ -15239,7 +15298,7 @@ __metadata:
     dayjs: ^1.11.7
     decompress: ^4.2.1
     dotenv: ^16.0.3
-    dotenv-expand: ^9.0.0
+    dotenv-expand: ^10.0.0
     essentials: ^1.2.0
     ext: ^1.7.0
     fastest-levenshtein: ^1.0.16
@@ -15248,7 +15307,7 @@ __metadata:
     get-stdin: ^8.0.0
     globby: ^11.1.0
     got: ^11.8.6
-    graceful-fs: ^4.2.10
+    graceful-fs: ^4.2.11
     https-proxy-agent: ^5.0.1
     is-docker: ^2.2.1
     js-yaml: ^4.1.0
@@ -15278,7 +15337,7 @@ __metadata:
   bin:
     serverless: bin/serverless.js
     sls: bin/serverless.js
-  checksum: 04315f923c79e37c83fd83e8968408286e591863304cf3678138ec3828afac15b2ed486b6b52c9ad3f48f3bd9603854d625d79efc10f33bc8e154a6afc0c5796
+  checksum: 3299f95357675e2c0d73366669660d647a8f0b1123aee94faf839d710e2028d2b236762b505e6ef1dec6fef291f4b020d5a0e464db1bbcb0ef8a8934e2b2f15f
   languageName: node
   linkType: hard
 
