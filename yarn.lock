@@ -5933,7 +5933,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^2.0.0, chalk@npm:^2.0.1, chalk@npm:^2.4.2":
+"chalk@npm:^2.0.0, chalk@npm:^2.0.1, chalk@npm:^2.4.1, chalk@npm:^2.4.2":
   version: 2.4.2
   resolution: "chalk@npm:2.4.2"
   dependencies:
@@ -11459,6 +11459,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"json-colorizer@npm:^2.2.2":
+  version: 2.2.2
+  resolution: "json-colorizer@npm:2.2.2"
+  dependencies:
+    chalk: ^2.4.1
+    lodash.get: ^4.4.2
+  checksum: c90e88179513893c41fb6a564fcc0061834137a8e0afbbf89835bb3993d0cf0ecbcbfb3f0597d19a40822f849916ce9462ff4e9c64bc39e53c7683e71cc49d2c
+  languageName: node
+  linkType: hard
+
 "json-cycle@npm:^1.3.0":
   version: 1.3.0
   resolution: "json-cycle@npm:1.3.0"
@@ -11961,6 +11971,13 @@ __metadata:
   version: 4.4.0
   resolution: "lodash.flatten@npm:4.4.0"
   checksum: 0ac34a393d4b795d4b7421153d27c13ae67e08786c9cbb60ff5b732210d46f833598eee3fb3844bb10070e8488efe390ea53bb567377e0cb47e9e630bf0811cb
+  languageName: node
+  linkType: hard
+
+"lodash.get@npm:^4.4.2":
+  version: 4.4.2
+  resolution: "lodash.get@npm:4.4.2"
+  checksum: e403047ddb03181c9d0e92df9556570e2b67e0f0a930fcbbbd779370972368f5568e914f913e93f3b08f6d492abc71e14d4e9b7a18916c31fa04bd2306efe545
   languageName: node
   linkType: hard
 
@@ -12983,7 +13000,7 @@ __metadata:
     jest: 28.1.3
     lint-staged: 13.2.0
     prettier: 2.8.7
-    serverless: 3.29.0
+    serverless: 3.30.0
     serverless-esbuild: 1.43.0
     serverless-jest-plugin: 0.4.0
     serverless-offline: 11.6.0
@@ -15209,9 +15226,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"serverless@npm:3.29.0":
-  version: 3.29.0
-  resolution: "serverless@npm:3.29.0"
+"serverless@npm:3.30.0":
+  version: 3.30.0
+  resolution: "serverless@npm:3.30.0"
   dependencies:
     "@serverless/dashboard-plugin": ^6.2.3
     "@serverless/platform-client": ^4.3.2
@@ -15243,6 +15260,7 @@ __metadata:
     https-proxy-agent: ^5.0.1
     is-docker: ^2.2.1
     js-yaml: ^4.1.0
+    json-colorizer: ^2.2.2
     json-cycle: ^1.3.0
     json-refs: ^3.0.15
     lodash: ^4.17.21
@@ -15258,6 +15276,7 @@ __metadata:
     require-from-string: ^2.0.2
     semver: ^7.3.8
     signal-exit: ^3.0.7
+    stream-buffers: ^3.0.2
     strip-ansi: ^6.0.1
     supports-color: ^8.1.1
     tar: ^6.1.13
@@ -15265,11 +15284,12 @@ __metadata:
     type: ^2.7.2
     untildify: ^4.0.0
     uuid: ^9.0.0
+    ws: ^7.5.9
     yaml-ast-parser: 0.0.43
   bin:
     serverless: bin/serverless.js
     sls: bin/serverless.js
-  checksum: 3299f95357675e2c0d73366669660d647a8f0b1123aee94faf839d710e2028d2b236762b505e6ef1dec6fef291f4b020d5a0e464db1bbcb0ef8a8934e2b2f15f
+  checksum: 953ddd6c9d8d6bfd59fa71a6f5f6c0fd217c425fb6588b341ce0e5fb8a9627ce9557ab4c2d7151756a5b5810018779cfaca07821031b32efb21f7e09bd181e71
   languageName: node
   linkType: hard
 
@@ -15827,6 +15847,13 @@ __metadata:
   version: 1.1.1
   resolution: "stealthy-require@npm:1.1.1"
   checksum: 6805b857a9f3a6a1079fc6652278038b81011f2a5b22cbd559f71a6c02087e6f1df941eb10163e3fdc5391ab5807aa46758d4258547c1f5ede31e6d9bfda8dd3
+  languageName: node
+  linkType: hard
+
+"stream-buffers@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "stream-buffers@npm:3.0.2"
+  checksum: b09fdeea606e3113ebd0e07010ed0cf038608fa396130add9e45deaff5cc3ba845dc25c31ad24f8341f85907846344cb7c85f75ea52c6572e2ac646e9b6072d0
   languageName: node
   linkType: hard
 
@@ -17564,7 +17591,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ws@npm:^7.5.3":
+"ws@npm:^7.5.3, ws@npm:^7.5.9":
   version: 7.5.9
   resolution: "ws@npm:7.5.9"
   peerDependencies:
