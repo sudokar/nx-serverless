@@ -3663,7 +3663,48 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@serverless/utils@npm:^6.10.0, @serverless/utils@npm:^6.8.2":
+"@serverless/utils@npm:^6.11.1":
+  version: 6.11.1
+  resolution: "@serverless/utils@npm:6.11.1"
+  dependencies:
+    archive-type: ^4.0.0
+    chalk: ^4.1.2
+    ci-info: ^3.8.0
+    cli-progress-footer: ^2.3.2
+    content-disposition: ^0.5.4
+    d: ^1.0.1
+    decompress: ^4.2.1
+    event-emitter: ^0.3.5
+    ext: ^1.7.0
+    ext-name: ^5.0.0
+    file-type: ^16.5.4
+    filenamify: ^4.3.0
+    get-stream: ^6.0.1
+    got: ^11.8.6
+    inquirer: ^8.2.5
+    js-yaml: ^4.1.0
+    jwt-decode: ^3.1.2
+    lodash: ^4.17.21
+    log: ^6.3.1
+    log-node: ^8.0.3
+    make-dir: ^3.1.0
+    memoizee: ^0.4.15
+    ms: ^2.1.3
+    ncjsm: ^4.3.2
+    node-fetch: ^2.6.9
+    open: ^8.4.2
+    p-event: ^4.2.0
+    supports-color: ^8.1.1
+    timers-ext: ^0.1.7
+    type: ^2.7.2
+    uni-global: ^1.0.0
+    uuid: ^8.3.2
+    write-file-atomic: ^4.0.2
+  checksum: c1eefeab96ef6a9e37f5978c5e3fa2e71d524ae29ee745d3556be00df4ce7af5d2878b9a5ee286951bd150e93581c1875f9a587bf3e1b719d314a5deb0410bfd
+  languageName: node
+  linkType: hard
+
+"@serverless/utils@npm:^6.8.2":
   version: 6.10.0
   resolution: "@serverless/utils@npm:6.10.0"
   dependencies:
@@ -5157,7 +5198,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aws-sdk@npm:^2.1342.0, aws-sdk@npm:^2.4.0":
+"aws-sdk@npm:^2.1352.0":
+  version: 2.1352.0
+  resolution: "aws-sdk@npm:2.1352.0"
+  dependencies:
+    buffer: 4.9.2
+    events: 1.1.1
+    ieee754: 1.1.13
+    jmespath: 0.16.0
+    querystring: 0.2.0
+    sax: 1.2.1
+    url: 0.10.3
+    util: ^0.12.4
+    uuid: 8.0.0
+    xml2js: 0.4.19
+  checksum: 36eb9f1b85dd39d4dbb4e22a2f9eaaf019bce74afdddde975371e894205162ac73f40302b8ebaf8b93904c08e6f537a81a7c522b905d75c7adaf508e10033ce7
+  languageName: node
+  linkType: hard
+
+"aws-sdk@npm:^2.4.0":
   version: 2.1348.0
   resolution: "aws-sdk@npm:2.1348.0"
   dependencies:
@@ -8503,7 +8562,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"filesize@npm:^10.0.6":
+"filesize@npm:^10.0.7":
   version: 10.0.7
   resolution: "filesize@npm:10.0.7"
   checksum: acabe6ddcf0c06eb86a9b2ac0a93db48d2438037dce4f7ec5cf6ee32284a8d961b1efc251af1c05e7316ccf1e78c68cdc32655511745cc2580f9b8c309b523ce
@@ -11469,10 +11528,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"json-cycle@npm:^1.3.0":
-  version: 1.3.0
-  resolution: "json-cycle@npm:1.3.0"
-  checksum: 68237ba5c5e05c3a90b62737a1b77fbda09272dd4d764a3b17f1279a84ec09000aa8b519221c8aa8d8da4e3f6f8bacb6cf825e155341cf2f1f8667b001e7f237
+"json-cycle@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "json-cycle@npm:1.4.0"
+  checksum: 3567c59d51eecf73b7de0c66d158cb28d120ebb29a61b6b377e4c76d27d35ce693574ec56f197e6f72e620d0dc1bf6f7e3d14d87631377966f456a560994da7b
   languageName: node
   linkType: hard
 
@@ -13000,7 +13059,7 @@ __metadata:
     jest: 28.1.3
     lint-staged: 13.2.0
     prettier: 2.8.7
-    serverless: 3.30.0
+    serverless: 3.30.1
     serverless-esbuild: 1.43.0
     serverless-jest-plugin: 0.4.0
     serverless-offline: 11.6.0
@@ -15226,17 +15285,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"serverless@npm:3.30.0":
-  version: 3.30.0
-  resolution: "serverless@npm:3.30.0"
+"serverless@npm:3.30.1":
+  version: 3.30.1
+  resolution: "serverless@npm:3.30.1"
   dependencies:
     "@serverless/dashboard-plugin": ^6.2.3
     "@serverless/platform-client": ^4.3.2
-    "@serverless/utils": ^6.10.0
+    "@serverless/utils": ^6.11.1
     ajv: ^8.12.0
     ajv-formats: ^2.1.1
     archiver: ^5.3.1
-    aws-sdk: ^2.1342.0
+    aws-sdk: ^2.1352.0
     bluebird: ^3.7.2
     cachedir: ^2.3.0
     chalk: ^4.1.2
@@ -15251,7 +15310,7 @@ __metadata:
     essentials: ^1.2.0
     ext: ^1.7.0
     fastest-levenshtein: ^1.0.16
-    filesize: ^10.0.6
+    filesize: ^10.0.7
     fs-extra: ^10.1.0
     get-stdin: ^8.0.0
     globby: ^11.1.0
@@ -15261,7 +15320,7 @@ __metadata:
     is-docker: ^2.2.1
     js-yaml: ^4.1.0
     json-colorizer: ^2.2.2
-    json-cycle: ^1.3.0
+    json-cycle: ^1.4.0
     json-refs: ^3.0.15
     lodash: ^4.17.21
     memoizee: ^0.4.15
@@ -15289,7 +15348,7 @@ __metadata:
   bin:
     serverless: bin/serverless.js
     sls: bin/serverless.js
-  checksum: 953ddd6c9d8d6bfd59fa71a6f5f6c0fd217c425fb6588b341ce0e5fb8a9627ce9557ab4c2d7151756a5b5810018779cfaca07821031b32efb21f7e09bd181e71
+  checksum: cb8be3c14527d3278f691cbff8084b5d63ebd3967a999dde0242056a500dd562d23d3fdca7038417b10f0b2ae1715d2e0f34fad7b5ec45486edb83c82dec7719
   languageName: node
   linkType: hard
 
