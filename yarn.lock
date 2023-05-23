@@ -742,12 +742,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aws-sdk/types@npm:3.337.0":
-  version: 3.337.0
-  resolution: "@aws-sdk/types@npm:3.337.0"
+"@aws-sdk/types@npm:3.338.0":
+  version: 3.338.0
+  resolution: "@aws-sdk/types@npm:3.338.0"
   dependencies:
     tslib: ^2.5.0
-  checksum: 1249b19a6a5bbfe98d3cdc14a7904a8b8d4bd2bee5acbaf637db06c55724cc0597ea0d26c951463b690d92b5fe5a5712e1b61c5be6402bca52f34929f97e90cf
+  checksum: c20619ef22c460c34926c053522163a2b8f4825fd8288dcfefec80ce2d526ab1e0417064dd533739a6037eb1abd16bc035a4be932d9eeec80a05483ec5183140
   languageName: node
   linkType: hard
 
@@ -13708,7 +13708,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nx-serverless-template@workspace:."
   dependencies:
-    "@aws-sdk/types": 3.337.0
+    "@aws-sdk/types": 3.338.0
     "@jest/transform": 28.1.3
     "@nrwl/cli": 15.9.3
     "@nrwl/devkit": 15.9.4
