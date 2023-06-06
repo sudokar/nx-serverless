@@ -4200,10 +4200,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/aws-lambda@npm:8.10.115":
-  version: 8.10.115
-  resolution: "@types/aws-lambda@npm:8.10.115"
-  checksum: 58c924812b0dac2e13118cbda05594f820033d2df572e0e264443cdfdb7ea07ed725614f0d5841b3f3bcf48bca7d3aa0da5b5ad3bf51ae74dadf9962037e23b5
+"@types/aws-lambda@npm:8.10.116":
+  version: 8.10.116
+  resolution: "@types/aws-lambda@npm:8.10.116"
+  checksum: afa51fd9263485da754137dae06d9c6f837b3409d790163efccab91e0137d11fbdd5ec1f1973945c9638282b2283fc0dca3c41997a215f4306c90b2ac17326ce
   languageName: node
   linkType: hard
 
@@ -13788,7 +13788,7 @@ __metadata:
     "@nrwl/nx-cloud": 15.3.5
     "@nrwl/tao": 15.9.4
     "@nrwl/workspace": 15.9.4
-    "@types/aws-lambda": 8.10.115
+    "@types/aws-lambda": 8.10.116
     "@types/jest": 28.1.8
     "@types/node": 18.16.16
     "@types/serverless": 3.12.12
