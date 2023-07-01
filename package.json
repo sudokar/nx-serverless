@@ -28,17 +28,20 @@
   "devDependencies": {
     "@aws-sdk/types": "3.357.0",
     "@jest/transform": "28.1.3",
-    "@nrwl/cli": "15.9.3",
-    "@nrwl/devkit": "15.9.4",
-    "@nrwl/eslint-plugin-nx": "15.9.4",
-    "@nrwl/jest": "15.9.4",
-    "@nrwl/linter": "15.9.4",
-    "@nrwl/node": "15.9.4",
-    "@nrwl/nx-cloud": "15.3.5",
-    "@nrwl/tao": "15.9.4",
-    "@nrwl/workspace": "15.9.4",
+    "@nrwl/tao": "16.4.2",
+    "@nx/devkit": "16.4.2",
+    "@nx/eslint-plugin": "16.4.2",
+    "@nx/jest": "16.4.2",
+    "@nx/js": "16.4.2",
+    "@nx/linter": "16.4.2",
+    "@nx/node": "16.4.2",
+    "@nx/plugin": "16.4.2",
+    "@nx/workspace": "16.4.2",
+    "@swc-node/register": "~1.4.2",
+    "@swc/cli": "0.1.62",
+    "@swc/core": "1.3.51",
     "@types/aws-lambda": "8.10.119",
-    "@types/jest": "28.1.8",
+    "@types/jest": "29.4.0",
     "@types/node": "18.16.19",
     "@types/serverless": "3.12.13",
     "@typescript-eslint/eslint-plugin": "5.60.1",
@@ -47,16 +50,19 @@
     "eslint": "8.44.0",
     "eslint-config-prettier": "8.8.0",
     "husky": "8.0.3",
-    "jest": "28.1.3",
+    "jest": "29.4.1",
+    "jest-environment-node": "29.4.1",
     "lint-staged": "13.2.3",
+    "nx-cloud": "16.0.5",
     "prettier": "2.8.8",
     "serverless": "3.33.0",
     "serverless-esbuild": "1.45.1",
     "serverless-jest-plugin": "0.4.0",
     "serverless-offline": "12.0.4",
-    "ts-jest": "28.0.8",
+    "ts-jest": "29.1.1",
     "ts-loader": "9.4.4",
-    "typescript": "5.1.6"
+    "ts-node": "10.9.1",
+    "typescript": "5.0.4"
   },
   "engines": {
     "node": "18"
@@ -70,5 +76,9 @@
       "prettier --write"
     ]
   },
-  "packageManager": "yarn@3.6.1"
+  "packageManager": "yarn@3.6.1",
+  "dependencies": {
+    "@swc/helpers": "0.5.0",
+    "tslib": "2.3.0"
+  }
 }

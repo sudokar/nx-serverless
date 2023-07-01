@@ -1,0 +1,6 @@
+{
+  "name": "@nx-serverless-template/workspace-plugin",
+  "version": "0.0.1",
+  "type": "commonjs",
+  "generators": "./generators.json"
+}
