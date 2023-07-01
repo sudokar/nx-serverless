@@ -2611,7 +2611,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jest/core@npm:^29.4.1, @jest/core@npm:^29.5.0":
+"@jest/core@npm:^29.5.0":
   version: 29.5.0
   resolution: "@jest/core@npm:29.5.0"
   dependencies:
@@ -2664,7 +2664,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jest/environment@npm:^29.4.1, @jest/environment@npm:^29.5.0":
+"@jest/environment@npm:^29.5.0":
   version: 29.5.0
   resolution: "@jest/environment@npm:29.5.0"
   dependencies:
@@ -2706,7 +2706,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jest/fake-timers@npm:^29.4.1, @jest/fake-timers@npm:^29.5.0":
+"@jest/fake-timers@npm:^29.5.0":
   version: 29.5.0
   resolution: "@jest/fake-timers@npm:29.5.0"
   dependencies:
@@ -2980,7 +2980,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jest/types@npm:^29.4.1, @jest/types@npm:^29.5.0":
+"@jest/types@npm:^29.5.0":
   version: 29.5.0
   resolution: "@jest/types@npm:29.5.0"
   dependencies:
@@ -4449,13 +4449,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:29.4.0":
-  version: 29.4.0
-  resolution: "@types/jest@npm:29.4.0"
+"@types/jest@npm:29.5.2":
+  version: 29.5.2
+  resolution: "@types/jest@npm:29.5.2"
   dependencies:
     expect: ^29.0.0
     pretty-format: ^29.0.0
-  checksum: 23760282362a252e6690314584d83a47512d4cd61663e957ed3398ecf98195fe931c45606ee2f9def12f8ed7d8aa102d492ec42d26facdaf8b78094a31e6568e
+  checksum: 7d205599ea3cccc262bad5cc173d3242d6bf8138c99458509230e4ecef07a52d6ddcde5a1dbd49ace655c0af51d2dbadef3748697292ea4d86da19d9e03e19c0
   languageName: node
   linkType: hard
 
@@ -9777,7 +9777,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-cli@npm:^29.4.1":
+"jest-cli@npm:^29.5.0":
   version: 29.5.0
   resolution: "jest-cli@npm:29.5.0"
   dependencies:
@@ -9949,17 +9949,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-environment-node@npm:29.4.1":
-  version: 29.4.1
-  resolution: "jest-environment-node@npm:29.4.1"
+"jest-environment-node@npm:29.5.0, jest-environment-node@npm:^29.5.0":
+  version: 29.5.0
+  resolution: "jest-environment-node@npm:29.5.0"
   dependencies:
-    "@jest/environment": ^29.4.1
-    "@jest/fake-timers": ^29.4.1
-    "@jest/types": ^29.4.1
+    "@jest/environment": ^29.5.0
+    "@jest/fake-timers": ^29.5.0
+    "@jest/types": ^29.5.0
     "@types/node": "*"
-    jest-mock: ^29.4.1
-    jest-util: ^29.4.1
-  checksum: 1de024edbc8a281b2c54d379d649a2d63e153049848c257be4118eaa5136cc4943a32f3ce44841ca2356e18850ab51f833cb94509f268e25ebcd32c6bfac27a3
+    jest-mock: ^29.5.0
+    jest-util: ^29.5.0
+  checksum: 57981911cc20a4219b0da9e22b2e3c9f31b505e43f78e61c899e3227ded455ce1a3a9483842c69cfa4532f02cfb536ae0995bf245f9211608edacfc1e478d411
   languageName: node
   linkType: hard
 
@@ -9973,20 +9973,6 @@ __metadata:
     jest-mock: ^24.9.0
     jest-util: ^24.9.0
   checksum: 61a446f7cbab96b1777f53bcbb45ecda139a2473c7a093a9420f0018824ec307b93f920f9e188b5f11b605d0ed14798396c97113aedb66c2801b29367a5dc8d2
-  languageName: node
-  linkType: hard
-
-"jest-environment-node@npm:^29.5.0":
-  version: 29.5.0
-  resolution: "jest-environment-node@npm:29.5.0"
-  dependencies:
-    "@jest/environment": ^29.5.0
-    "@jest/fake-timers": ^29.5.0
-    "@jest/types": ^29.5.0
-    "@types/node": "*"
-    jest-mock: ^29.5.0
-    jest-util: ^29.5.0
-  checksum: 57981911cc20a4219b0da9e22b2e3c9f31b505e43f78e61c899e3227ded455ce1a3a9483842c69cfa4532f02cfb536ae0995bf245f9211608edacfc1e478d411
   languageName: node
   linkType: hard
 
@@ -10183,7 +10169,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-mock@npm:^29.4.1, jest-mock@npm:^29.5.0":
+"jest-mock@npm:^29.5.0":
   version: 29.5.0
   resolution: "jest-mock@npm:29.5.0"
   dependencies:
@@ -10596,14 +10582,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest@npm:29.4.1":
-  version: 29.4.1
-  resolution: "jest@npm:29.4.1"
+"jest@npm:29.5.0":
+  version: 29.5.0
+  resolution: "jest@npm:29.5.0"
   dependencies:
-    "@jest/core": ^29.4.1
-    "@jest/types": ^29.4.1
+    "@jest/core": ^29.5.0
+    "@jest/types": ^29.5.0
     import-local: ^3.0.2
-    jest-cli: ^29.4.1
+    jest-cli: ^29.5.0
   peerDependencies:
     node-notifier: ^8.0.1 || ^9.0.0 || ^10.0.0
   peerDependenciesMeta:
@@ -10611,7 +10597,7 @@ __metadata:
       optional: true
   bin:
     jest: bin/jest.js
-  checksum: b2f74b24d74e135460579a34727d5027818ab6d55a84cbb1d6e730064f8c8fec0590092c6a84334178b310b923587798b0091ab8ae40baba372530fc46dfd195
+  checksum: a8ff2eb0f421623412236e23cbe67c638127fffde466cba9606bc0c0553b4c1e5cb116d7e0ef990b5d1712851652c8ee461373b578df50857fe635b94ff455d5
   languageName: node
   linkType: hard
 
@@ -12111,7 +12097,7 @@ __metadata:
     "@swc/core": 1.3.51
     "@swc/helpers": 0.5.0
     "@types/aws-lambda": 8.10.119
-    "@types/jest": 29.4.0
+    "@types/jest": 29.5.2
     "@types/node": 18.16.19
     "@types/serverless": 3.12.13
     "@typescript-eslint/eslint-plugin": 5.60.1
@@ -12120,8 +12106,8 @@ __metadata:
     eslint: 8.44.0
     eslint-config-prettier: 8.8.0
     husky: 8.0.3
-    jest: 29.4.1
-    jest-environment-node: 29.4.1
+    jest: 29.5.0
+    jest-environment-node: 29.5.0
     lint-staged: 13.2.3
     nx-cloud: 16.0.5
     prettier: 2.8.8
