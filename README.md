@@ -101,7 +101,7 @@ Depending on your prefrered package manager, follow the instructions below to bu
 - **Generate a new stack**
 
   ```shell
-  nx workspace-generator serverless <STACK_NAME>
+  nx g serverless <STACK_NAME>
   ```
 
   > Run with `-d` or `--dry-run` flag for dry run
@@ -109,7 +109,7 @@ Depending on your prefrered package manager, follow the instructions below to bu
 - **Generate a new library**
 
   ```shell
-  nx g @nrwl/node:lib --skipBabelrc --tags lib <LIBRARY_NAME>
+  nx g @nx/node:lib --skipBabelrc --tags lib <LIBRARY_NAME>
   ```
 
   > Run with `-d` or `--dry-run` flag for dry run

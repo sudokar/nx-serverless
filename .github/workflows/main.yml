@@ -32,10 +32,10 @@ jobs:
         run: yarn install --immutable
 
       - name: Generate stack
-        run: npx nx workspace-generator serverless test-stack
+        run: npx nx g serverless test-stack
 
       - name: Generate library
-        run: npx nx g @nrwl/node:lib test-lib --tags lib
+        run: npx nx g @nx/node:lib test-lib --tags lib
 
       - name: Linting
         run: npx nx run-many --target=lint --all

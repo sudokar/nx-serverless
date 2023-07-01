@@ -4,7 +4,7 @@ import {
   installPackagesTask,
   joinPathFragments,
   Tree,
-} from '@nrwl/devkit';
+} from '@nx/devkit';
 import { Schema } from './schema';
 import { addJest } from './jest-config';
 import { addWorkspaceConfig } from './workspace-config';

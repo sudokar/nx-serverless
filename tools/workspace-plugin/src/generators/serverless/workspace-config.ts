@@ -1,7 +1,7 @@
-import { addProjectConfiguration, Tree } from '@nrwl/devkit';
+import { addProjectConfiguration, Tree } from '@nx/devkit';
 
 const buildRunCommandConfig = (dir: string, command: string) => ({
-  executor: '@nrwl/workspace:run-commands',
+  executor: 'nx:run-commands',
   options: {
     cwd: dir,
     color: true,
@@ -32,7 +32,7 @@ export const addWorkspaceConfig = (
         ...buildRunCommandConfig(stackRoot, 'sls remove'),
       },
       lint: {
-        executor: '@nrwl/linter:eslint',
+        executor: '@nx/linter:eslint',
         options: {
           lintFilePatterns: [stackRoot + '/**/*.ts'],
         },
