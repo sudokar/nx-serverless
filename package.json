@@ -39,7 +39,7 @@
     "@nrwl/workspace": "15.9.4",
     "@types/aws-lambda": "8.10.119",
     "@types/jest": "28.1.8",
-    "@types/node": "18.16.18",
+    "@types/node": "18.16.19",
     "@types/serverless": "3.12.13",
     "@typescript-eslint/eslint-plugin": "5.60.1",
     "@typescript-eslint/parser": "5.60.1",
