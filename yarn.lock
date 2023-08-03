@@ -4678,6 +4678,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"abort-controller@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "abort-controller@npm:3.0.0"
+  dependencies:
+    event-target-shim: ^5.0.0
+  checksum: 170bdba9b47b7e65906a28c8ce4f38a7a369d78e2271706f020849c1bfe0ee2067d4261df8bbb66eb84f79208fd5b710df759d64191db58cfba7ce8ef9c54b75
+  languageName: node
+  linkType: hard
+
 "acorn-globals@npm:^4.1.0":
   version: 4.3.4
   resolution: "acorn-globals@npm:4.3.4"
@@ -7448,6 +7457,13 @@ __metadata:
     d: 1
     es5-ext: ~0.10.14
   checksum: 27c1399557d9cd7e0aa0b366c37c38a4c17293e3a10258e8b692a847dd5ba9fb90429c3a5a1eeff96f31f6fa03ccbd31d8ad15e00540b22b22f01557be706030
+  languageName: node
+  linkType: hard
+
+"event-target-shim@npm:^5.0.0":
+  version: 5.0.1
+  resolution: "event-target-shim@npm:5.0.1"
+  checksum: 1ffe3bb22a6d51bdeb6bf6f7cf97d2ff4a74b017ad12284cc9e6a279e727dc30a5de6bb613e5596ff4dc3e517841339ad09a7eec44266eccb1aa201a30448166
   languageName: node
   linkType: hard
 
@@ -11977,7 +11993,7 @@ __metadata:
     lint-staged: 13.2.3
     nx-cloud: 16.2.0
     prettier: 2.8.8
-    serverless: 3.33.0
+    serverless: 3.34.0
     serverless-esbuild: 1.46.0
     serverless-jest-plugin: 0.4.0
     serverless-offline: 12.0.4
@@ -13599,13 +13615,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"serverless@npm:3.33.0":
-  version: 3.33.0
-  resolution: "serverless@npm:3.33.0"
+"serverless@npm:3.34.0":
+  version: 3.34.0
+  resolution: "serverless@npm:3.34.0"
   dependencies:
     "@serverless/dashboard-plugin": ^6.2.3
     "@serverless/platform-client": ^4.3.2
     "@serverless/utils": ^6.11.1
+    abort-controller: ^3.0.0
     ajv: ^8.12.0
     ajv-formats: ^2.1.1
     archiver: ^5.3.1
@@ -13628,7 +13645,6 @@ __metadata:
     fs-extra: ^10.1.0
     get-stdin: ^8.0.0
     globby: ^11.1.0
-    got: ^11.8.6
     graceful-fs: ^4.2.11
     https-proxy-agent: ^5.0.1
     is-docker: ^2.2.1
@@ -13662,7 +13678,7 @@ __metadata:
   bin:
     serverless: bin/serverless.js
     sls: bin/serverless.js
-  checksum: 233a2d0eb831bc295051f9a91a70b777e04bc97e04cbdaaf62bafc9e55010003b239f432f5c126874cba7497642ab74e8bc6e405a1dd1a7476e2dcf694e3a202
+  checksum: 890f558bd88378ee9ee0c854496acacadea242443177687965f74b44f8453a94e489c239bb7ae68cf79b59fbf1eaad4849a90e88fbd35ac001b71d9205340a37
   languageName: node
   linkType: hard
 
