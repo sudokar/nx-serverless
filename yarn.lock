@@ -4054,7 +4054,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc-node/core@npm:^1.10.4":
+"@swc-node/core@npm:^1.10.0":
   version: 1.10.4
   resolution: "@swc-node/core@npm:1.10.4"
   peerDependencies:
@@ -4063,11 +4063,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc-node/register@npm:~1.6.0":
-  version: 1.6.6
-  resolution: "@swc-node/register@npm:1.6.6"
+"@swc-node/register@npm:1.6.0":
+  version: 1.6.0
+  resolution: "@swc-node/register@npm:1.6.0"
   dependencies:
-    "@swc-node/core": ^1.10.4
+    "@swc-node/core": ^1.10.0
     "@swc-node/sourcemap-support": ^0.3.0
     colorette: ^2.0.19
     debug: ^4.3.4
@@ -4076,7 +4076,7 @@ __metadata:
   peerDependencies:
     "@swc/core": ">= 1.3"
     typescript: ">= 4.3"
-  checksum: 2d8d054fd782735570a1b57fbb96f2667745bb905f4aee7504b4a56e54186a5b2a5c91f8e520012695489cb208096c72468b528d49ddd0ad85e1642b218f945d
+  checksum: e2245f5beb4599da49b69f379abaa79f447d90c2157aee3166b67c056ebfcebf28ae009e81d57f05b2425f9f3b4a304906268e95a006288e26ea0d1af6c07f98
   languageName: node
   linkType: hard
 
@@ -11987,7 +11987,7 @@ __metadata:
     "@nx/node": 16.4.2
     "@nx/plugin": 16.4.2
     "@nx/workspace": 16.4.2
-    "@swc-node/register": ~1.6.0
+    "@swc-node/register": 1.6.0
     "@swc/cli": 0.1.62
     "@swc/core": 1.3.67
     "@swc/helpers": 0.5.1
