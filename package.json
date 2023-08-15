@@ -54,7 +54,7 @@
     "jest-environment-node": "29.6.2",
     "lint-staged": "13.3.0",
     "nx-cloud": "16.3.0",
-    "prettier": "3.0.1",
+    "prettier": "3.0.2",
     "serverless": "3.34.0",
     "serverless-esbuild": "1.46.0",
     "serverless-jest-plugin": "0.4.0",
