@@ -79,6 +79,6 @@
   "packageManager": "yarn@3.6.2",
   "dependencies": {
     "@swc/helpers": "0.5.1",
-    "tslib": "2.6.1"
+    "tslib": "2.6.2"
   }
 }
