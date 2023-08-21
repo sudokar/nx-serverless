@@ -2776,6 +2776,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jest/schemas@npm:^29.6.3":
+  version: 29.6.3
+  resolution: "@jest/schemas@npm:29.6.3"
+  dependencies:
+    "@sinclair/typebox": ^0.27.8
+  checksum: 910040425f0fc93cd13e68c750b7885590b8839066dfa0cd78e7def07bbb708ad869381f725945d66f2284de5663bbecf63e8fdd856e2ae6e261ba30b1687e93
+  languageName: node
+  linkType: hard
+
 "@jest/source-map@npm:^24.3.0, @jest/source-map@npm:^24.9.0":
   version: 24.9.0
   resolution: "@jest/source-map@npm:24.9.0"
@@ -2845,26 +2854,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jest/transform@npm:29.6.2, @jest/transform@npm:^29.6.2":
-  version: 29.6.2
-  resolution: "@jest/transform@npm:29.6.2"
+"@jest/transform@npm:29.6.3":
+  version: 29.6.3
+  resolution: "@jest/transform@npm:29.6.3"
   dependencies:
     "@babel/core": ^7.11.6
-    "@jest/types": ^29.6.1
+    "@jest/types": ^29.6.3
     "@jridgewell/trace-mapping": ^0.3.18
     babel-plugin-istanbul: ^6.1.1
     chalk: ^4.0.0
     convert-source-map: ^2.0.0
     fast-json-stable-stringify: ^2.1.0
     graceful-fs: ^4.2.9
-    jest-haste-map: ^29.6.2
-    jest-regex-util: ^29.4.3
-    jest-util: ^29.6.2
+    jest-haste-map: ^29.6.3
+    jest-regex-util: ^29.6.3
+    jest-util: ^29.6.3
     micromatch: ^4.0.4
     pirates: ^4.0.4
     slash: ^3.0.0
     write-file-atomic: ^4.0.2
-  checksum: ffb8c3c344cd48bedadec295d9c436737eccc39c1f0868aa9753b76397b33b2e5b121058af6f287ba6f2036181137e37df1212334bfa9d9a712986a4518cdc18
+  checksum: edc47e960a71dab5ad8f0480fc4c1b05f2950c12e5aeb62bacfd46929dd5c7101dd2fa521a2e59c62a90849118039949f0230282a485de8dc373aac711f1bff9
   languageName: node
   linkType: hard
 
@@ -2892,6 +2901,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jest/transform@npm:^29.6.2":
+  version: 29.6.2
+  resolution: "@jest/transform@npm:29.6.2"
+  dependencies:
+    "@babel/core": ^7.11.6
+    "@jest/types": ^29.6.1
+    "@jridgewell/trace-mapping": ^0.3.18
+    babel-plugin-istanbul: ^6.1.1
+    chalk: ^4.0.0
+    convert-source-map: ^2.0.0
+    fast-json-stable-stringify: ^2.1.0
+    graceful-fs: ^4.2.9
+    jest-haste-map: ^29.6.2
+    jest-regex-util: ^29.4.3
+    jest-util: ^29.6.2
+    micromatch: ^4.0.4
+    pirates: ^4.0.4
+    slash: ^3.0.0
+    write-file-atomic: ^4.0.2
+  checksum: ffb8c3c344cd48bedadec295d9c436737eccc39c1f0868aa9753b76397b33b2e5b121058af6f287ba6f2036181137e37df1212334bfa9d9a712986a4518cdc18
+  languageName: node
+  linkType: hard
+
 "@jest/types@npm:^24.9.0":
   version: 24.9.0
   resolution: "@jest/types@npm:24.9.0"
@@ -2914,6 +2946,20 @@ __metadata:
     "@types/yargs": ^17.0.8
     chalk: ^4.0.0
   checksum: 89fc1ccf71a84fe0da643e0675b1cfe6a6f19ea72e935b2ab1dbdb56ec547e94433fb59b3536d3832a6e156c077865b7176fe9dae707dab9c3d2f9405ba6233c
+  languageName: node
+  linkType: hard
+
+"@jest/types@npm:^29.6.3":
+  version: 29.6.3
+  resolution: "@jest/types@npm:29.6.3"
+  dependencies:
+    "@jest/schemas": ^29.6.3
+    "@types/istanbul-lib-coverage": ^2.0.0
+    "@types/istanbul-reports": ^3.0.0
+    "@types/node": "*"
+    "@types/yargs": ^17.0.8
+    chalk: ^4.0.0
+  checksum: a0bcf15dbb0eca6bdd8ce61a3fb055349d40268622a7670a3b2eb3c3dbafe9eb26af59938366d520b86907b9505b0f9b29b85cec11579a9e580694b87cd90fcc
   languageName: node
   linkType: hard
 
@@ -10011,6 +10057,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jest-haste-map@npm:^29.6.3":
+  version: 29.6.3
+  resolution: "jest-haste-map@npm:29.6.3"
+  dependencies:
+    "@jest/types": ^29.6.3
+    "@types/graceful-fs": ^4.1.3
+    "@types/node": "*"
+    anymatch: ^3.0.3
+    fb-watchman: ^2.0.0
+    fsevents: ^2.3.2
+    graceful-fs: ^4.2.9
+    jest-regex-util: ^29.6.3
+    jest-util: ^29.6.3
+    jest-worker: ^29.6.3
+    micromatch: ^4.0.4
+    walker: ^1.0.8
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  checksum: d72b81442cf54c5962009502b4001e53b7e40ecd1717bb5d17d5b0badc89cf5529b8be5d2804442d25ee6a70809de150e554b074029170b0e86a32b7560ce430
+  languageName: node
+  linkType: hard
+
 "jest-jasmine2@npm:^24.9.0":
   version: 24.9.0
   resolution: "jest-jasmine2@npm:24.9.0"
@@ -10155,6 +10224,13 @@ __metadata:
   version: 29.4.3
   resolution: "jest-regex-util@npm:29.4.3"
   checksum: 96fc7fc28cd4dd73a63c13a526202c4bd8b351d4e5b68b1a2a2c88da3308c2a16e26feaa593083eb0bac38cca1aa9dd05025412e7de013ba963fb8e66af22b8a
+  languageName: node
+  linkType: hard
+
+"jest-regex-util@npm:^29.6.3":
+  version: 29.6.3
+  resolution: "jest-regex-util@npm:29.6.3"
+  checksum: 0518beeb9bf1228261695e54f0feaad3606df26a19764bc19541e0fc6e2a3737191904607fb72f3f2ce85d9c16b28df79b7b1ec9443aa08c3ef0e9efda6f8f2a
   languageName: node
   linkType: hard
 
@@ -10418,6 +10494,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jest-util@npm:^29.6.3":
+  version: 29.6.3
+  resolution: "jest-util@npm:29.6.3"
+  dependencies:
+    "@jest/types": ^29.6.3
+    "@types/node": "*"
+    chalk: ^4.0.0
+    ci-info: ^3.2.0
+    graceful-fs: ^4.2.9
+    picomatch: ^2.2.3
+  checksum: 7bf3ba3ac67ac6ceff7d8fdd23a86768e23ddd9133ecd9140ef87cc0c28708effabaf67a6cd45cd9d90a63d645a522ed0825d09ee59ac4c03b9c473b1fef4c7c
+  languageName: node
+  linkType: hard
+
 "jest-validate@npm:^24.9.0":
   version: 24.9.0
   resolution: "jest-validate@npm:24.9.0"
@@ -10496,6 +10586,18 @@ __metadata:
     merge-stream: ^2.0.0
     supports-color: ^8.0.0
   checksum: 11035564534bf181ead80b25be138c2d42372bd5626151a3e705200d47a74fd9da3ca79f8a7b15806cdc325ad73c3d21d23acceeed99d50941589ff02915ed38
+  languageName: node
+  linkType: hard
+
+"jest-worker@npm:^29.6.3":
+  version: 29.6.3
+  resolution: "jest-worker@npm:29.6.3"
+  dependencies:
+    "@types/node": "*"
+    jest-util: ^29.6.3
+    merge-stream: ^2.0.0
+    supports-color: ^8.0.0
+  checksum: 8ffb24a2d4c70ed3032034a2601defccc19353d854d89459f58793c6c8f170f88038c6722073c8047c5734c8ec8d4902ebc955f4f7acb433c2499adf616388fc
   languageName: node
   linkType: hard
 
@@ -11988,7 +12090,7 @@ __metadata:
   resolution: "nx-serverless-template@workspace:."
   dependencies:
     "@aws-sdk/types": 3.391.0
-    "@jest/transform": 29.6.2
+    "@jest/transform": 29.6.3
     "@nrwl/tao": 16.5.5
     "@nx/devkit": 16.5.5
     "@nx/eslint-plugin": 16.5.5
