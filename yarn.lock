@@ -2669,18 +2669,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jest/environment@npm:^29.6.3":
-  version: 29.6.3
-  resolution: "@jest/environment@npm:29.6.3"
-  dependencies:
-    "@jest/fake-timers": ^29.6.3
-    "@jest/types": ^29.6.3
-    "@types/node": "*"
-    jest-mock: ^29.6.3
-  checksum: 96aaf9baaa58fbacbdfbde9591297f25f9d6f5566cf10cd07d744a4a25b1d82b6cfb89f217a45ccce2cc50ec6c7e3c9a0122908d6b827985a1679afb5e10b7b1
-  languageName: node
-  linkType: hard
-
 "@jest/environment@npm:^29.6.4":
   version: 29.6.4
   resolution: "@jest/environment@npm:29.6.4"
@@ -2753,20 +2741,6 @@ __metadata:
     jest-mock: ^29.6.2
     jest-util: ^29.6.2
   checksum: 1abcda02f22d2ba32e178b7ab80a9180235a6c75ec9faef33324627b19a70dad64889a9ea49b8f07230e14a6e683b9120542c6d1d6b2ecaf937f4efde32dad88
-  languageName: node
-  linkType: hard
-
-"@jest/fake-timers@npm:^29.6.3":
-  version: 29.6.3
-  resolution: "@jest/fake-timers@npm:29.6.3"
-  dependencies:
-    "@jest/types": ^29.6.3
-    "@sinonjs/fake-timers": ^10.0.2
-    "@types/node": "*"
-    jest-message-util: ^29.6.3
-    jest-mock: ^29.6.3
-    jest-util: ^29.6.3
-  checksum: 60be71159bb92c8b8da593fac2b2fff50c0760c26c3b17237561a2818382d3c797bd119a1707ec1d3e9b77e8e3d6513fe88f0c668d6ca26fb2c01ab475620888
   languageName: node
   linkType: hard
 
@@ -10333,17 +10307,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-environment-node@npm:29.6.3":
-  version: 29.6.3
-  resolution: "jest-environment-node@npm:29.6.3"
+"jest-environment-node@npm:29.6.4, jest-environment-node@npm:^29.6.4":
+  version: 29.6.4
+  resolution: "jest-environment-node@npm:29.6.4"
   dependencies:
-    "@jest/environment": ^29.6.3
-    "@jest/fake-timers": ^29.6.3
+    "@jest/environment": ^29.6.4
+    "@jest/fake-timers": ^29.6.4
     "@jest/types": ^29.6.3
     "@types/node": "*"
     jest-mock: ^29.6.3
     jest-util: ^29.6.3
-  checksum: c215d8d94d95ba0353677c8b6c7c46d3f612bfd6becafa90e842ab99cb4ba2243c7f0309f1518ea2879820d39c0f3ec0d678e9ebb41055ed6eedbeb123f2897c
+  checksum: 518221505af4bd32c84f2af2c03f9d771de2711bd69fe7723b648fcc2e05d95b4e75f493afa9010209e26a4a3309ebee971f9b18c45b540891771d3b68c3a16e
   languageName: node
   linkType: hard
 
@@ -10371,20 +10345,6 @@ __metadata:
     jest-mock: ^29.6.2
     jest-util: ^29.6.2
   checksum: 0b754ac2d3bdb7ce5d6fc28595b9d1c64176f20506b6f773b18b0280ab0b396ed7d927c8519779d3c560fa2b13236ee7077092ccb19a13bea23d40dd30f06450
-  languageName: node
-  linkType: hard
-
-"jest-environment-node@npm:^29.6.4":
-  version: 29.6.4
-  resolution: "jest-environment-node@npm:29.6.4"
-  dependencies:
-    "@jest/environment": ^29.6.4
-    "@jest/fake-timers": ^29.6.4
-    "@jest/types": ^29.6.3
-    "@types/node": "*"
-    jest-mock: ^29.6.3
-    jest-util: ^29.6.3
-  checksum: 518221505af4bd32c84f2af2c03f9d771de2711bd69fe7723b648fcc2e05d95b4e75f493afa9010209e26a4a3309ebee971f9b18c45b540891771d3b68c3a16e
   languageName: node
   linkType: hard
 
@@ -12697,7 +12657,7 @@ __metadata:
     eslint-config-prettier: 9.0.0
     husky: 8.0.3
     jest: 29.6.4
-    jest-environment-node: 29.6.3
+    jest-environment-node: 29.6.4
     lint-staged: 14.0.1
     nx-cloud: 16.3.0
     prettier: 3.0.2
