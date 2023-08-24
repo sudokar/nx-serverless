@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@aws-sdk/types": "3.398.0",
-    "@jest/transform": "29.6.3",
+    "@jest/transform": "29.6.4",
     "@nrwl/tao": "16.5.5",
     "@nx/devkit": "16.5.5",
     "@nx/eslint-plugin": "16.5.5",
