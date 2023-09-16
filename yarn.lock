@@ -13395,7 +13395,7 @@ __metadata:
     lint-staged: 14.0.1
     nx-cloud: 16.4.0
     prettier: 3.0.3
-    serverless: 3.35.0
+    serverless: 3.35.1
     serverless-esbuild: 1.47.1
     serverless-jest-plugin: 0.4.0
     serverless-offline: 12.0.4
@@ -15038,9 +15038,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"serverless@npm:3.35.0":
-  version: 3.35.0
-  resolution: "serverless@npm:3.35.0"
+"serverless@npm:3.35.1":
+  version: 3.35.1
+  resolution: "serverless@npm:3.35.1"
   dependencies:
     "@serverless/dashboard-plugin": ^7.0.1
     "@serverless/platform-client": ^4.4.0
@@ -15101,7 +15101,7 @@ __metadata:
   bin:
     serverless: bin/serverless.js
     sls: bin/serverless.js
-  checksum: 30f7142cd79f93b087f99a2f92d5a19a8fcc41dc9f4e11fb872f187ab8cce7a3590aa9d6127310c9e5262811790b279ffb618c6712419acf37175d314bc681f4
+  checksum: 7a5175daa33e52374ac54c2e5e52fe120469f4d0d29e2432d5825b78499b1d7a8da1c167f51cdc424bd10cb2c18763f69c2e167cff3e5f34b79a542d774c9c38
   languageName: node
   linkType: hard
 
