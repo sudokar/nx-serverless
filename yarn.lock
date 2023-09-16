@@ -12638,7 +12638,7 @@ __metadata:
     nx-cloud: 16.4.0
     prettier: 3.0.3
     serverless: 3.34.0
-    serverless-esbuild: 1.47.0
+    serverless-esbuild: 1.47.1
     serverless-jest-plugin: 0.4.0
     serverless-offline: 12.0.4
     ts-jest: 29.1.1
@@ -14203,9 +14203,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"serverless-esbuild@npm:1.47.0":
-  version: 1.47.0
-  resolution: "serverless-esbuild@npm:1.47.0"
+"serverless-esbuild@npm:1.47.1":
+  version: 1.47.1
+  resolution: "serverless-esbuild@npm:1.47.1"
   dependencies:
     acorn: ^8.8.1
     acorn-walk: ^8.2.0
@@ -14226,7 +14226,7 @@ __metadata:
   peerDependenciesMeta:
     esbuild-node-externals:
       optional: true
-  checksum: 587e37efe2672e68786a19cc03807c644630174bbadf582db6565b0e30f6b39bf0aa4febd1548f6ce531e98354cab60b1127d8c7171c4160d72247f60cee4f2b
+  checksum: 89416122e077e78e86d52b6b14bd88bfe5400cdf55c6ae80efd7800db6acbec58a2d6a543ffb857d0880c6aee38f5ce8835f32b7c36d99934142556511c802e5
   languageName: node
   linkType: hard
 
