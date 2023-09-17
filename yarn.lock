@@ -3965,14 +3965,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@serverless/dashboard-plugin@npm:^7.0.1":
-  version: 7.0.1
-  resolution: "@serverless/dashboard-plugin@npm:7.0.1"
+"@serverless/dashboard-plugin@npm:^7.0.2":
+  version: 7.0.2
+  resolution: "@serverless/dashboard-plugin@npm:7.0.2"
   dependencies:
     "@aws-sdk/client-cloudformation": ^3.410.0
     "@aws-sdk/client-sts": ^3.410.0
     "@serverless/event-mocks": ^1.1.1
-    "@serverless/platform-client": ^4.3.2
+    "@serverless/platform-client": ^4.4.0
     "@serverless/utils": ^6.8.2
     child-process-ext: ^3.0.1
     chokidar: ^3.5.3
@@ -3992,7 +3992,7 @@ __metadata:
     type: ^2.7.2
     uuid: ^8.3.2
     yamljs: ^0.3.0
-  checksum: 4bde484ebec1d3905c2c1ba16f77916cb4911b89eed4558b3b494b007eab07eedf7be6d96bddc5aef0bfc77c1825adf0a69e29b1ae4c61d8aae6dcf7e8b4c9b2
+  checksum: e36a83811b801e189e75d55f4793572d36c60e123749392e000b989ca6619a8b7fc2c749d9f95ffccbdd639e7f07bf7b15ccf01ebe22f57c0ffebd6f9ea004b6
   languageName: node
   linkType: hard
 
@@ -4003,29 +4003,6 @@ __metadata:
     "@types/lodash": ^4.14.123
     lodash: ^4.17.11
   checksum: 6c9441148d53abb4e7559ad3f74aa72236e88e91cb829d8eadb1edd5b515d1cb1d17de346eab6e066428375f997b864368913fe2ae858e16a8fc24ef815752f4
-  languageName: node
-  linkType: hard
-
-"@serverless/platform-client@npm:^4.3.2":
-  version: 4.3.2
-  resolution: "@serverless/platform-client@npm:4.3.2"
-  dependencies:
-    adm-zip: ^0.5.5
-    archiver: ^5.3.0
-    axios: ^0.21.1
-    fast-glob: ^3.2.7
-    https-proxy-agent: ^5.0.0
-    ignore: ^5.1.8
-    isomorphic-ws: ^4.0.1
-    js-yaml: ^3.14.1
-    jwt-decode: ^2.2.0
-    minimatch: ^3.0.4
-    querystring: ^0.2.1
-    run-parallel-limit: ^1.1.0
-    throat: ^5.0.0
-    traverse: ^0.6.6
-    ws: ^7.5.3
-  checksum: a038012473ff86dc898603ff8cd1a9ba15c17c64b3ead4f923a9563b67903f01a4f6786b5f847ba47b6a8ec6c3e42e161fbcf8de4fcf92a72d6239050f703910
   languageName: node
   linkType: hard
 
@@ -13395,7 +13372,7 @@ __metadata:
     lint-staged: 14.0.1
     nx-cloud: 16.4.0
     prettier: 3.0.3
-    serverless: 3.35.1
+    serverless: 3.35.2
     serverless-esbuild: 1.48.0
     serverless-jest-plugin: 0.4.0
     serverless-offline: 12.0.4
@@ -15038,11 +15015,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"serverless@npm:3.35.1":
-  version: 3.35.1
-  resolution: "serverless@npm:3.35.1"
+"serverless@npm:3.35.2":
+  version: 3.35.2
+  resolution: "serverless@npm:3.35.2"
   dependencies:
-    "@serverless/dashboard-plugin": ^7.0.1
+    "@serverless/dashboard-plugin": ^7.0.2
     "@serverless/platform-client": ^4.4.0
     "@serverless/utils": ^6.13.1
     abort-controller: ^3.0.0
@@ -15101,7 +15078,7 @@ __metadata:
   bin:
     serverless: bin/serverless.js
     sls: bin/serverless.js
-  checksum: 7a5175daa33e52374ac54c2e5e52fe120469f4d0d29e2432d5825b78499b1d7a8da1c167f51cdc424bd10cb2c18763f69c2e167cff3e5f34b79a542d774c9c38
+  checksum: c783b709b91941c3bb70fba51668a759aeba831bc4c829ff8329d5fe33823f322ce877750caf485aa52f6e4ab1c9204b23ef42cd06997a760a8db65ed0e5b641
   languageName: node
   linkType: hard
 
