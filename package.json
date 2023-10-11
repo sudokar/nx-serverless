@@ -56,7 +56,7 @@
     "nx-cloud": "16.5.1",
     "prettier": "3.0.3",
     "serverless": "3.35.2",
-    "serverless-esbuild": "1.48.4",
+    "serverless-esbuild": "1.48.5",
     "serverless-jest-plugin": "0.4.0",
     "serverless-offline": "12.0.4",
     "ts-jest": "29.1.1",
