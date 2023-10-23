@@ -3469,7 +3469,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@serverless/dashboard-plugin@npm:^7.0.2":
+"@serverless/dashboard-plugin@npm:^7.1.0":
   version: 7.1.0
   resolution: "@serverless/dashboard-plugin@npm:7.1.0"
   dependencies:
@@ -12196,7 +12196,7 @@ __metadata:
     lint-staged: 14.0.1
     nx-cloud: 16.5.2
     prettier: 3.0.3
-    serverless: 3.35.2
+    serverless: 3.36.0
     serverless-esbuild: 1.48.5
     serverless-jest-plugin: 0.4.0
     serverless-offline: 12.0.4
@@ -13828,11 +13828,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"serverless@npm:3.35.2":
-  version: 3.35.2
-  resolution: "serverless@npm:3.35.2"
+"serverless@npm:3.36.0":
+  version: 3.36.0
+  resolution: "serverless@npm:3.36.0"
   dependencies:
-    "@serverless/dashboard-plugin": ^7.0.2
+    "@serverless/dashboard-plugin": ^7.1.0
     "@serverless/platform-client": ^4.4.0
     "@serverless/utils": ^6.13.1
     abort-controller: ^3.0.0
@@ -13891,7 +13891,7 @@ __metadata:
   bin:
     serverless: bin/serverless.js
     sls: bin/serverless.js
-  checksum: c783b709b91941c3bb70fba51668a759aeba831bc4c829ff8329d5fe33823f322ce877750caf485aa52f6e4ab1c9204b23ef42cd06997a760a8db65ed0e5b641
+  checksum: 377660d63b84e0f104520f66a9a695a311362e9bfdf3565773f43dfd3eb16a93afba7426166c725893c38827516f6f44701e7dfc71566c1f56d1224e78ed0d9b
   languageName: node
   linkType: hard
 
