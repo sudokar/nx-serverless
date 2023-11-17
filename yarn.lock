@@ -3525,14 +3525,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@serverless/dashboard-plugin@npm:^7.1.0":
-  version: 7.1.0
-  resolution: "@serverless/dashboard-plugin@npm:7.1.0"
+"@serverless/dashboard-plugin@npm:^7.2.0":
+  version: 7.2.0
+  resolution: "@serverless/dashboard-plugin@npm:7.2.0"
   dependencies:
     "@aws-sdk/client-cloudformation": ^3.410.0
     "@aws-sdk/client-sts": ^3.410.0
     "@serverless/event-mocks": ^1.1.1
-    "@serverless/platform-client": ^4.4.0
+    "@serverless/platform-client": ^4.5.1
     "@serverless/utils": ^6.14.0
     child-process-ext: ^3.0.1
     chokidar: ^3.5.3
@@ -3552,7 +3552,7 @@ __metadata:
     type: ^2.7.2
     uuid: ^8.3.2
     yamljs: ^0.3.0
-  checksum: d10cf72d2a5caf8d7ad7508076f2a76c9688b71598cc410ce411eef6c413aec22b290298705674393df9a4f8cb8816afcc82070e14c75ba783294943bfc708c9
+  checksum: 9a4c0e18f5b2787fa4ea88f36a09284c0a5e96b6d58906a594f22e50c25d9758837dba2420593ed5ef1d1dddce5106b3fe894c3bed61256580a3894e380584da
   languageName: node
   linkType: hard
 
@@ -3566,13 +3566,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@serverless/platform-client@npm:^4.4.0":
-  version: 4.4.0
-  resolution: "@serverless/platform-client@npm:4.4.0"
+"@serverless/platform-client@npm:^4.5.1":
+  version: 4.5.1
+  resolution: "@serverless/platform-client@npm:4.5.1"
   dependencies:
     adm-zip: ^0.5.5
     archiver: ^5.3.0
-    axios: ^0.21.1
+    axios: ^1.6.2
     fast-glob: ^3.2.7
     https-proxy-agent: ^5.0.0
     ignore: ^5.1.8
@@ -3585,7 +3585,7 @@ __metadata:
     throat: ^5.0.0
     traverse: ^0.6.6
     ws: ^7.5.3
-  checksum: df56111b6489c367c314fe74e40416f8bf89aa1b049b09e4fd67573c3d3282fe20df136a5b43266cc0a3614ee28336b1300389e2fce629a3178d2c3ad1d1c495
+  checksum: 7ae891d44676001ca4c0b35f76e25683101f0121581bf49ad9d97dbaf6decc07ddb0ea4cf7ee8c61d801dccdd21a95d4b4f5ce79a6abbf54527050e480038e5d
   languageName: node
   linkType: hard
 
@@ -5466,15 +5466,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:^0.21.1":
-  version: 0.21.4
-  resolution: "axios@npm:0.21.4"
-  dependencies:
-    follow-redirects: ^1.14.0
-  checksum: 44245f24ac971e7458f3120c92f9d66d1fc695e8b97019139de5b0cc65d9b8104647db01e5f46917728edfc0cfd88eb30fc4c55e6053eef4ace76768ce95ff3c
-  languageName: node
-  linkType: hard
-
 "axios@npm:^1.0.0":
   version: 1.6.1
   resolution: "axios@npm:1.6.1"
@@ -5483,6 +5474,17 @@ __metadata:
     form-data: ^4.0.0
     proxy-from-env: ^1.1.0
   checksum: 573f03f59b7487d54551b16f5e155d1d130ad4864ed32d1da93d522b78a57123b34e3bde37f822a65ee297e79f1db840f9ad6514addff50d3cbf5caeed39e8dc
+  languageName: node
+  linkType: hard
+
+"axios@npm:^1.6.2":
+  version: 1.6.2
+  resolution: "axios@npm:1.6.2"
+  dependencies:
+    follow-redirects: ^1.15.0
+    form-data: ^4.0.0
+    proxy-from-env: ^1.1.0
+  checksum: 4a7429e2b784be0f2902ca2680964391eae7236faa3967715f30ea45464b98ae3f1c6f631303b13dfe721b17126b01f486c7644b9ef276bfc63112db9fd379f8
   languageName: node
   linkType: hard
 
@@ -8288,7 +8290,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"follow-redirects@npm:^1.14.0, follow-redirects@npm:^1.15.0":
+"follow-redirects@npm:^1.15.0":
   version: 1.15.3
   resolution: "follow-redirects@npm:1.15.3"
   peerDependenciesMeta:
@@ -12162,7 +12164,7 @@ __metadata:
     lint-staged: 14.0.1
     nx-cloud: 16.5.2
     prettier: 3.1.0
-    serverless: 3.36.0
+    serverless: 3.37.0
     serverless-esbuild: 1.49.0
     serverless-jest-plugin: 0.4.0
     serverless-offline: 12.0.4
@@ -13801,12 +13803,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"serverless@npm:3.36.0":
-  version: 3.36.0
-  resolution: "serverless@npm:3.36.0"
+"serverless@npm:3.37.0":
+  version: 3.37.0
+  resolution: "serverless@npm:3.37.0"
   dependencies:
-    "@serverless/dashboard-plugin": ^7.1.0
-    "@serverless/platform-client": ^4.4.0
+    "@serverless/dashboard-plugin": ^7.2.0
+    "@serverless/platform-client": ^4.5.1
     "@serverless/utils": ^6.13.1
     abort-controller: ^3.0.0
     ajv: ^8.12.0
@@ -13864,7 +13866,7 @@ __metadata:
   bin:
     serverless: bin/serverless.js
     sls: bin/serverless.js
-  checksum: 377660d63b84e0f104520f66a9a695a311362e9bfdf3565773f43dfd3eb16a93afba7426166c725893c38827516f6f44701e7dfc71566c1f56d1224e78ed0d9b
+  checksum: 664f1af2c8d30de4ed7065ff58f15372777b1be2cb35057139986e2081d8215e454f0d5c2f993b2be0b10b8232f1ba27d7ac016e62b2114a0c8a5fae6d722607
   languageName: node
   linkType: hard
 
