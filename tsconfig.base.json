@@ -17,7 +17,8 @@
     "paths": {
       "@nx-serverless-template/workspace-plugin": [
         "tools/workspace-plugin/src/index.ts"
-      ]
+      ],
+      "@serverless-base/*": ["serverless.base.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

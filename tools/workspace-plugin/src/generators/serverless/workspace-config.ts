@@ -32,7 +32,7 @@ export const addWorkspaceConfig = (
         ...buildRunCommandConfig(stackRoot, 'sls remove'),
       },
       lint: {
-        executor: '@nx/eslint:eslint',
+        executor: '@nx/eslint:lint',
         options: {
           lintFilePatterns: [stackRoot + '/**/*.ts'],
         },
