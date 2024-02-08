@@ -13016,7 +13016,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nx-serverless-template@workspace:."
   dependencies:
-    "@aws-sdk/types": "npm:3.468.0"
+    "@aws-sdk/types": "npm:3.502.0"
     "@jest/transform": "npm:29.7.0"
     "@nrwl/tao": "npm:16.5.5"
     "@nx/devkit": "npm:16.5.5"
