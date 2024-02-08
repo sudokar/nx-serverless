@@ -12,7 +12,7 @@ const buildRunCommandConfig = (dir: string, command: string) => ({
 export const addWorkspaceConfig = (
   host: Tree,
   projectName: string,
-  stackRoot: string
+  stackRoot: string,
 ) => {
   addProjectConfiguration(host, projectName, {
     root: stackRoot,
@@ -32,7 +32,7 @@ export const addWorkspaceConfig = (
         ...buildRunCommandConfig(stackRoot, 'sls remove'),
       },
       lint: {
-        executor: '@nx/linter:eslint',
+        executor: '@nx/eslint:lint',
         options: {
           lintFilePatterns: [stackRoot + '/**/*.ts'],
         },
