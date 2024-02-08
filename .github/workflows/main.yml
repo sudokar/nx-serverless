@@ -33,16 +33,16 @@ jobs:
         run: yarn install --immutable
 
       - name: Generate stack
-        run: yarn nx g serverless test-stack
+        run: npx nx g serverless test-stack
 
       - name: Generate library
-        run: yarn nx g @nx/node:lib test-lib --tags lib
+        run: npx nx g @nx/node:lib test-lib --tags lib
 
       - name: Linting
-        run: yarn nx run-many --target=lint --all
+        run: npx nx run-many --target=lint --all
 
       - name: Run tests
-        run: yarn nx run-many --target=test --all
+        run: npx nx run-many --target=test --all
 
       - name: Sls package
-        run: yarn nx run-many --target=build --all --stage=ci
+        run: npx nx run-many --target=build --all --stage=ci
