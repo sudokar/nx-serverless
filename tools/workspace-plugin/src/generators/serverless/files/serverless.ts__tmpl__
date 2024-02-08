@@ -1,5 +1,6 @@
 import type { Serverless } from 'serverless/aws';
-import { baseServerlessConfiguration } from '@serverless-base/';
+// eslint-disable-next-line @nx/enforce-module-boundaries
+import { baseServerlessConfiguration } from '../../serverless.base';
 
 const serverlessConfiguration = <Serverless>{
   ...baseServerlessConfiguration,
