@@ -26,22 +26,23 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '18.x'
+          node-version-file: '.nvmrc'
+          cache: 'yarn'
 
       - name: Install packages
         run: yarn install --immutable
 
       - name: Generate stack
-        run: npx nx g serverless test-stack
+        run: yarn nx g serverless test-stack
 
       - name: Generate library
-        run: npx nx g @nx/node:lib test-lib --tags lib
+        run: yarn nx g @nx/node:lib test-lib --tags lib
 
       - name: Linting
-        run: npx nx run-many --target=lint --all
+        run: yarn nx run-many --target=lint --all
 
       - name: Run tests
-        run: npx nx run-many --target=test --all
+        run: yarn nx run-many --target=test --all
 
       - name: Sls package
-        run: npx nx run-many --target=build --all --stage=ci
+        run: yarn nx run-many --target=build --all --stage=ci
