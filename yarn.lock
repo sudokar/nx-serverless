@@ -5151,7 +5151,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc-node/core@npm:^1.10.6":
+"@swc-node/core@npm:^1.12.0":
   version: 1.12.0
   resolution: "@swc-node/core@npm:1.12.0"
   peerDependencies:
@@ -5161,30 +5161,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc-node/register@npm:1.6.8":
-  version: 1.6.8
-  resolution: "@swc-node/register@npm:1.6.8"
+"@swc-node/register@npm:1.8.0":
+  version: 1.8.0
+  resolution: "@swc-node/register@npm:1.8.0"
   dependencies:
-    "@swc-node/core": "npm:^1.10.6"
-    "@swc-node/sourcemap-support": "npm:^0.3.0"
-    colorette: "npm:^2.0.19"
+    "@swc-node/core": "npm:^1.12.0"
+    "@swc-node/sourcemap-support": "npm:^0.4.0"
+    colorette: "npm:^2.0.20"
     debug: "npm:^4.3.4"
-    pirates: "npm:^4.0.5"
-    tslib: "npm:^2.5.0"
+    pirates: "npm:^4.0.6"
+    tslib: "npm:^2.6.2"
   peerDependencies:
     "@swc/core": ">= 1.3"
     typescript: ">= 4.3"
-  checksum: 10/028b28c324011e859172b14c07e8fb32e9d8b107c1ee3216e0c1838c7d5b16aadbb7e186fdf8da4b48d4b8d958df00154de56580e502bd27be695f50f30b964f
+  checksum: 10/6b50fd6d6d0848e4fc9c2e39fe0a216b7b1110b290fa09c0cddc0034a46cc23c6f24a4236400536942b58a1e1a2b1b23549d9341b7e3ec84adf78910e3fed261
   languageName: node
   linkType: hard
 
-"@swc-node/sourcemap-support@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "@swc-node/sourcemap-support@npm:0.3.0"
+"@swc-node/sourcemap-support@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "@swc-node/sourcemap-support@npm:0.4.0"
   dependencies:
     source-map-support: "npm:^0.5.21"
-    tslib: "npm:^2.5.0"
-  checksum: 10/c172f420f0c6e072859dd3a5a0c3f49045c9d4b9546f222c8bfcbf2e1a60b81318b33790b7d111e4e90d1e1f68285354f99692503d7ac4eae07d65ac3ff8aa0a
+    tslib: "npm:^2.6.2"
+  checksum: 10/1830450bb264cf49f2fae8c7a7b4a6a901a03b2be7fbe1fa3fab7fa02c8ce4dbffdc48d99ae1d0881516461f85611a01840c798705edce16be3db1c85b2fa246
   languageName: node
   linkType: hard
 
@@ -7406,7 +7406,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"colorette@npm:^2.0.19, colorette@npm:^2.0.20":
+"colorette@npm:^2.0.20":
   version: 2.0.20
   resolution: "colorette@npm:2.0.20"
   checksum: 10/0b8de48bfa5d10afc160b8eaa2b9938f34a892530b2f7d7897e0458d9535a066e3998b49da9d21161c78225b272df19ae3a64d6df28b4c9734c0e55bbd02406f
@@ -13171,7 +13171,7 @@ __metadata:
     "@nx/node": "npm:18.0.3"
     "@nx/plugin": "npm:18.0.3"
     "@nx/workspace": "npm:18.0.3"
-    "@swc-node/register": "npm:1.6.8"
+    "@swc-node/register": "npm:1.8.0"
     "@swc/cli": "npm:0.3.9"
     "@swc/core": "npm:1.4.0"
     "@swc/helpers": "npm:0.5.6"
@@ -13863,7 +13863,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pirates@npm:^4.0.1, pirates@npm:^4.0.4, pirates@npm:^4.0.5":
+"pirates@npm:^4.0.1, pirates@npm:^4.0.4, pirates@npm:^4.0.6":
   version: 4.0.6
   resolution: "pirates@npm:4.0.6"
   checksum: 10/d02dda76f4fec1cbdf395c36c11cf26f76a644f9f9a1bfa84d3167d0d3154d5289aacc72677aa20d599bb4a6937a471de1b65c995e2aea2d8687cbcd7e43ea5f
@@ -16144,7 +16144,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:2.6.2, tslib@npm:^2.1.0, tslib@npm:^2.3.0, tslib@npm:^2.3.1, tslib@npm:^2.4.0, tslib@npm:^2.5.0":
+"tslib@npm:2.6.2, tslib@npm:^2.1.0, tslib@npm:^2.3.0, tslib@npm:^2.3.1, tslib@npm:^2.4.0, tslib@npm:^2.5.0, tslib@npm:^2.6.2":
   version: 2.6.2
   resolution: "tslib@npm:2.6.2"
   checksum: 10/bd26c22d36736513980091a1e356378e8b662ded04204453d353a7f34a4c21ed0afc59b5f90719d4ba756e581a162ecbf93118dc9c6be5acf70aa309188166ca
