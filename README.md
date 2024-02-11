@@ -62,7 +62,7 @@ A monrepo style, modern boilerplate or template project for [Serverless framewor
 
 - [Nodejs](https://nodejs.org/) `protip: use nvm`
 
-  > :warning: **Version**: `lts/hydrogen (v18)`. If you're using [nvm](https://github.com/nvm-sh/nvm), run `nvm use` to ensure you're using the same Node version in local and in your lambda's runtime.
+  > :warning: **Version**: `lts/iron (v20)`. If you're using [nvm](https://github.com/nvm-sh/nvm), run `nvm use` to ensure you're using the same Node version in local and in your lambda's runtime.
 
 - :package: Package Manager
 
@@ -82,17 +82,9 @@ Depending on your prefrered package manager, follow the instructions below to bu
 
 - **Install project dependencies**
 
-  - Using NPM
-
-    ```shell
-    npm i
-    ```
-
-  - Using Yarn
-
-    ```shell
-    yarn
-    ```
+  ```shell
+  yarn install
+  ```
 
 - **Generate a new stack**
 
