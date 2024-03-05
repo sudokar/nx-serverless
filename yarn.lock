@@ -4171,22 +4171,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc-node/core@npm:^1.12.0":
-  version: 1.12.0
-  resolution: "@swc-node/core@npm:1.12.0"
+"@swc-node/core@npm:^1.13.0":
+  version: 1.13.0
+  resolution: "@swc-node/core@npm:1.13.0"
   peerDependencies:
     "@swc/core": ">= 1.3"
     "@swc/types": ">= 0.1"
-  checksum: 10/d6e5f52beaa8a9e67c270fe3793664280419ad01f69e2bf9315a9b1d12494edb73b48780eed3f4c40a970ebdf09ea09b0eae49d75b5deea90774d7d0504ea9f3
+  checksum: 10/06f5634038346fbceeb18ef44c2d6e28c499da44fe775f84199afd7db358a548127573af92ff84f6b4913cdd69047a492e0dc2cbe0830444023743cd33fe1970
   languageName: node
   linkType: hard
 
-"@swc-node/register@npm:1.8.0":
-  version: 1.8.0
-  resolution: "@swc-node/register@npm:1.8.0"
+"@swc-node/register@npm:1.9.0":
+  version: 1.9.0
+  resolution: "@swc-node/register@npm:1.9.0"
   dependencies:
-    "@swc-node/core": "npm:^1.12.0"
-    "@swc-node/sourcemap-support": "npm:^0.4.0"
+    "@swc-node/core": "npm:^1.13.0"
+    "@swc-node/sourcemap-support": "npm:^0.5.0"
     colorette: "npm:^2.0.20"
     debug: "npm:^4.3.4"
     pirates: "npm:^4.0.6"
@@ -4194,17 +4194,17 @@ __metadata:
   peerDependencies:
     "@swc/core": ">= 1.3"
     typescript: ">= 4.3"
-  checksum: 10/6b50fd6d6d0848e4fc9c2e39fe0a216b7b1110b290fa09c0cddc0034a46cc23c6f24a4236400536942b58a1e1a2b1b23549d9341b7e3ec84adf78910e3fed261
+  checksum: 10/991db9154786f67e58ffe237c78fde2d2104c1af1ec455e55b7ab9a28615f10b478bf150a26fe44783727f55ab78afab91b577587a2ad1cad0ad2725fd9c1053
   languageName: node
   linkType: hard
 
-"@swc-node/sourcemap-support@npm:^0.4.0":
-  version: 0.4.0
-  resolution: "@swc-node/sourcemap-support@npm:0.4.0"
+"@swc-node/sourcemap-support@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "@swc-node/sourcemap-support@npm:0.5.0"
   dependencies:
     source-map-support: "npm:^0.5.21"
     tslib: "npm:^2.6.2"
-  checksum: 10/1830450bb264cf49f2fae8c7a7b4a6a901a03b2be7fbe1fa3fab7fa02c8ce4dbffdc48d99ae1d0881516461f85611a01840c798705edce16be3db1c85b2fa246
+  checksum: 10/4163bd5b6730ed395efa70df43a2a1ec6604a23dd70992d8a329c3bff7f8ef42fa04a090145f2c1471ae398602e8b4bf3d4d95c6d66c81cdb609a54538553d9d
   languageName: node
   linkType: hard
 
@@ -12224,7 +12224,7 @@ __metadata:
     "@nx/node": "npm:18.0.7"
     "@nx/plugin": "npm:18.0.7"
     "@nx/workspace": "npm:18.0.7"
-    "@swc-node/register": "npm:1.8.0"
+    "@swc-node/register": "npm:1.9.0"
     "@swc/cli": "npm:0.3.9"
     "@swc/core": "npm:1.4.2"
     "@swc/helpers": "npm:0.5.6"
