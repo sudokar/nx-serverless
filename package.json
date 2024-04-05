@@ -41,7 +41,7 @@
     "@swc/cli": "0.3.9",
     "@swc/core": "1.4.8",
     "@swc/jest": "0.2.36",
-    "@types/aws-lambda": "8.10.136",
+    "@types/aws-lambda": "8.10.137",
     "@types/jest": "29.5.12",
     "@types/node": "20.12.4",
     "@types/serverless": "3.12.22",
