@@ -4615,13 +4615,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/retry@npm:0.12.2":
-  version: 0.12.2
-  resolution: "@types/retry@npm:0.12.2"
-  checksum: 10/e5675035717b39ce4f42f339657cae9637cf0c0051cf54314a6a2c44d38d91f6544be9ddc0280587789b6afd056be5d99dbe3e9f4df68c286c36321579b1bf4a
-  languageName: node
-  linkType: hard
-
 "@types/semver@npm:^7.5.8":
   version: 7.5.8
   resolution: "@types/semver@npm:7.5.8"
@@ -9603,13 +9596,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-network-error@npm:^1.0.0":
-  version: 1.1.0
-  resolution: "is-network-error@npm:1.1.0"
-  checksum: 10/b2fe6aac07f814a9de275efd05934c832c129e7ba292d27614e9e8eec9e043b7a0bbeaeca5d0916b0f462edbec2aa2eaee974ee0a12ac095040e9515c222c251
-  languageName: node
-  linkType: hard
-
 "is-number-object@npm:^1.0.4":
   version: 1.0.7
   resolution: "is-number-object@npm:1.0.7"
@@ -12330,7 +12316,7 @@ __metadata:
     serverless: "npm:3.38.0"
     serverless-esbuild: "npm:1.52.1"
     serverless-jest-plugin: "npm:0.4.0"
-    serverless-offline: "npm:13.3.4"
+    serverless-offline: "npm:13.4.0"
     ts-jest: "npm:29.1.2"
     ts-loader: "npm:9.5.1"
     ts-node: "npm:10.9.2"
@@ -12739,17 +12725,6 @@ __metadata:
   version: 1.0.0
   resolution: "p-reduce@npm:1.0.0"
   checksum: 10/049080f6b4d1f5812a72df96a08f2f9e557724a31d56de9b0f2ecf40b564632e1886ef75ed380c6afe21e18b6089cbaa0121eddf4d7d282f034bfda4f0ef77b2
-  languageName: node
-  linkType: hard
-
-"p-retry@npm:^6.2.0":
-  version: 6.2.0
-  resolution: "p-retry@npm:6.2.0"
-  dependencies:
-    "@types/retry": "npm:0.12.2"
-    is-network-error: "npm:^1.0.0"
-    retry: "npm:^0.13.1"
-  checksum: 10/1a5ac16828c96c03c354f78d643dfc7aa8f8b998e1b60e27533da2c75e5cabfb1c7f88ce312e813e09a80b056011fbb372d384132e9c92d27d052bd7c282a978
   languageName: node
   linkType: hard
 
@@ -13681,13 +13656,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"retry@npm:^0.13.1":
-  version: 0.13.1
-  resolution: "retry@npm:0.13.1"
-  checksum: 10/6125ec2e06d6e47e9201539c887defba4e47f63471db304c59e4b82fc63c8e89ca06a77e9d34939a9a42a76f00774b2f46c0d4a4cbb3e287268bd018ed69426d
-  languageName: node
-  linkType: hard
-
 "reusify@npm:^1.0.4":
   version: 1.0.4
   resolution: "reusify@npm:1.0.4"
@@ -13949,9 +13917,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"serverless-offline@npm:13.3.4":
-  version: 13.3.4
-  resolution: "serverless-offline@npm:13.3.4"
+"serverless-offline@npm:13.4.0":
+  version: 13.4.0
+  resolution: "serverless-offline@npm:13.4.0"
   dependencies:
     "@aws-sdk/client-lambda": "npm:^3.509.0"
     "@hapi/boom": "npm:^10.0.1"
@@ -13974,12 +13942,11 @@ __metadata:
     luxon: "npm:^3.4.4"
     node-schedule: "npm:^2.1.1"
     p-memoize: "npm:^7.1.1"
-    p-retry: "npm:^6.2.0"
     velocityjs: "npm:^2.0.6"
     ws: "npm:^8.16.0"
   peerDependencies:
     serverless: ^3.2.0
-  checksum: 10/5833b19fed856ff2d78d22fc0321ec801fe9df8924d30e55535e60f853bf71bc49944afef67fc20b6d770be5dae9df07699d958460718a285ff5cddd990f08ef
+  checksum: 10/d7e81b86431843b54b1e7e2317bd9f1f054600fefa4be60992fcc8278ee90ad8bfb07d4f81e4697e81b275c0826925871150abb442e2060b44c8d3625a8555b6
   languageName: node
   linkType: hard
 
