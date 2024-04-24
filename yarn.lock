@@ -3228,12 +3228,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nrwl/nx-cloud@npm:18.0.0":
-  version: 18.0.0
-  resolution: "@nrwl/nx-cloud@npm:18.0.0"
+"@nrwl/nx-cloud@npm:18.0.1":
+  version: 18.0.1
+  resolution: "@nrwl/nx-cloud@npm:18.0.1"
   dependencies:
-    nx-cloud: "npm:18.0.0"
-  checksum: 10/081132b18b471c8db8b68ab25c6ea410bb8bbc12a531e3252b5e56bd3ad86d1ba6e52b0ea662f442e02a6687331a5c1a7062f3e405eac846f63579e262c34403
+    nx-cloud: "npm:18.0.1"
+  checksum: 10/0ce7d07d3541fcf1fe798a49269d00daaf8f27558b36471f0c4c3586f28882035500e017d7d3939eb545576acaba0d794cadacdba1e6956665394b839aa67ba1
   languageName: node
   linkType: hard
 
@@ -12258,11 +12258,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nx-cloud@npm:18.0.0":
-  version: 18.0.0
-  resolution: "nx-cloud@npm:18.0.0"
+"nx-cloud@npm:18.0.1":
+  version: 18.0.1
+  resolution: "nx-cloud@npm:18.0.1"
   dependencies:
-    "@nrwl/nx-cloud": "npm:18.0.0"
+    "@nrwl/nx-cloud": "npm:18.0.1"
     axios: "npm:1.1.3"
     chalk: "npm:^4.1.0"
     dotenv: "npm:~10.0.0"
@@ -12270,11 +12270,11 @@ __metadata:
     node-machine-id: "npm:^1.1.12"
     open: "npm:~8.4.0"
     strip-json-comments: "npm:^3.1.1"
-    tar: "npm:6.1.11"
+    tar: "npm:6.2.1"
     yargs-parser: "npm:>=21.1.1"
   bin:
     nx-cloud: bin/nx-cloud.js
-  checksum: 10/e023f25d09be7ea69456f74e166b955e2e2c20a5de7946740344ca139f116339ed73f453ca7d1141d7943d3af008cdbef4bc577445afa4549326a7ca42e547ed
+  checksum: 10/2bb52936553b8ab4a3970c19f6b5385dd2ff22c2f6cb67d38cd08d5e5a265bef7d6e85c9fe742a8acfc1d585870fdbf010a28c3f34a58bf48a329a895b8db5cf
   languageName: node
   linkType: hard
 
@@ -12311,7 +12311,7 @@ __metadata:
     jest: "npm:29.7.0"
     jest-environment-node: "npm:29.7.0"
     lint-staged: "npm:15.2.2"
-    nx-cloud: "npm:18.0.0"
+    nx-cloud: "npm:18.0.1"
     prettier: "npm:3.2.5"
     serverless: "npm:3.38.0"
     serverless-esbuild: "npm:1.52.1"
@@ -14874,21 +14874,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tar@npm:6.1.11":
-  version: 6.1.11
-  resolution: "tar@npm:6.1.11"
-  dependencies:
-    chownr: "npm:^2.0.0"
-    fs-minipass: "npm:^2.0.0"
-    minipass: "npm:^3.0.0"
-    minizlib: "npm:^2.1.1"
-    mkdirp: "npm:^1.0.3"
-    yallist: "npm:^4.0.0"
-  checksum: 10/0e6789e66475922b8e0d1ee648cb26e0ede9a0635284269ca71b2d8acd507bc59ad5557032f0192f8ff22680b50cb66792b56f0240f484fe0d7d8cef81c1b959
-  languageName: node
-  linkType: hard
-
-"tar@npm:^6.1.11, tar@npm:^6.1.15, tar@npm:^6.1.2":
+"tar@npm:6.2.1, tar@npm:^6.1.11, tar@npm:^6.1.15, tar@npm:^6.1.2":
   version: 6.2.1
   resolution: "tar@npm:6.2.1"
   dependencies:
