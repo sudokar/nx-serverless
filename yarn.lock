@@ -4462,10 +4462,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/aws-lambda@npm:8.10.137":
-  version: 8.10.137
-  resolution: "@types/aws-lambda@npm:8.10.137"
-  checksum: 10/43dc2a9939cd8a73fcae55172c78c48894b5e67eccade037686749ed293f064880bc52b6fa9c3bc5e879c2229c26072bba11147c074b69b6fd8f0e7f4dd1e942
+"@types/aws-lambda@npm:8.10.138":
+  version: 8.10.138
+  resolution: "@types/aws-lambda@npm:8.10.138"
+  checksum: 10/144945d47e6364abb7ccfdd035bce4ab72ede53c459d22e6d134fbba05ad9ce6df185482f1e81c76bbf831f49b83e9aabcc77eeb2a3f4149d5928700221cbeca
   languageName: node
   linkType: hard
 
@@ -12302,7 +12302,7 @@ __metadata:
     "@swc/core": "npm:1.4.8"
     "@swc/helpers": "npm:0.5.6"
     "@swc/jest": "npm:0.2.36"
-    "@types/aws-lambda": "npm:8.10.137"
+    "@types/aws-lambda": "npm:8.10.138"
     "@types/jest": "npm:29.5.12"
     "@types/node": "npm:20.12.12"
     "@types/serverless": "npm:3.12.22"
