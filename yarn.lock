@@ -3607,7 +3607,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@serverless/utils@npm:^6.13.1, @serverless/utils@npm:^6.14.0, @serverless/utils@npm:^6.15.0":
+"@serverless/utils@npm:^6.13.1, @serverless/utils@npm:^6.14.0":
   version: 6.15.0
   resolution: "@serverless/utils@npm:6.15.0"
   dependencies:
@@ -12320,7 +12320,7 @@ __metadata:
     serverless: "npm:3.38.0"
     serverless-esbuild: "npm:1.52.1"
     serverless-jest-plugin: "npm:0.4.0"
-    serverless-offline: "npm:13.5.0"
+    serverless-offline: "npm:13.5.1"
     ts-jest: "npm:29.1.2"
     ts-loader: "npm:9.5.1"
     ts-node: "npm:10.9.2"
@@ -13926,15 +13926,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"serverless-offline@npm:13.5.0":
-  version: 13.5.0
-  resolution: "serverless-offline@npm:13.5.0"
+"serverless-offline@npm:13.5.1":
+  version: 13.5.1
+  resolution: "serverless-offline@npm:13.5.1"
   dependencies:
     "@aws-sdk/client-lambda": "npm:^3.509.0"
     "@hapi/boom": "npm:^10.0.1"
     "@hapi/h2o2": "npm:^10.0.4"
     "@hapi/hapi": "npm:^21.3.3"
-    "@serverless/utils": "npm:^6.15.0"
     array-unflat-js: "npm:^0.1.3"
     boxen: "npm:^7.1.1"
     chalk: "npm:^5.3.0"
@@ -13955,7 +13954,7 @@ __metadata:
     ws: "npm:^8.16.0"
   peerDependencies:
     serverless: ^3.2.0
-  checksum: 10/6eed0b828d871ffd73af278a47155dcdc0f90813d6b60e2b96d6f3f5357236e9c8e559dc5d6c08da0f34057a7633f8f83efc91fbffc049bee06744657b5a4ead
+  checksum: 10/67901f74fe596bc5f0d04aafb819c939b2e1c30b850a34d20932bf56f1e1d480050acdd5e98848fbbe5341cda23b54ebe638cda6cdaddf3cb08a98a4e3583437
   languageName: node
   linkType: hard
 
