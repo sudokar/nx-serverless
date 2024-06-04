@@ -56,7 +56,7 @@
     "lint-staged": "15.2.5",
     "nx-cloud": "18.0.1",
     "prettier": "3.3.0",
-    "serverless": "3.38.0",
+    "serverless": "3.39.0",
     "serverless-esbuild": "1.52.1",
     "serverless-jest-plugin": "0.4.0",
     "serverless-offline": "13.6.0",
