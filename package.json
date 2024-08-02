@@ -43,7 +43,7 @@
     "@swc/jest": "0.2.36",
     "@types/aws-lambda": "8.10.142",
     "@types/jest": "29.5.12",
-    "@types/node": "20.14.13",
+    "@types/node": "20.14.14",
     "@types/serverless": "3.12.22",
     "@typescript-eslint/eslint-plugin": "7.18.0",
     "@typescript-eslint/parser": "7.18.0",
