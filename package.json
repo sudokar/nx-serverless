@@ -59,7 +59,7 @@
     "serverless": "3.39.0",
     "serverless-esbuild": "1.53.0",
     "serverless-jest-plugin": "0.4.0",
-    "serverless-offline": "13.8.0",
+    "serverless-offline": "13.8.1",
     "ts-jest": "29.2.5",
     "ts-loader": "9.5.1",
     "ts-node": "10.9.2",
