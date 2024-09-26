@@ -13123,7 +13123,7 @@ __metadata:
     nx-cloud: "npm:18.0.1"
     prettier: "npm:3.3.3"
     serverless: "npm:3.39.0"
-    serverless-esbuild: "npm:1.54.2"
+    serverless-esbuild: "npm:1.54.3"
     serverless-jest-plugin: "npm:0.4.0"
     serverless-offline: "npm:13.8.1"
     ts-jest: "npm:29.2.5"
@@ -14706,9 +14706,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"serverless-esbuild@npm:1.54.2":
-  version: 1.54.2
-  resolution: "serverless-esbuild@npm:1.54.2"
+"serverless-esbuild@npm:1.54.3":
+  version: 1.54.3
+  resolution: "serverless-esbuild@npm:1.54.3"
   dependencies:
     "@effect/platform": "npm:^0.65.5"
     "@effect/platform-node": "npm:^0.60.5"
@@ -14732,7 +14732,7 @@ __metadata:
   peerDependenciesMeta:
     esbuild-node-externals:
       optional: true
-  checksum: 10/923b06cf6093ee4e95aea247ed778e8ac2aeb9e28ab6101618c94cc8cf0b4015b62f1fc3ac891a96e775d27858672e30afbcefc3f5470f45b33e2c0d22e1daad
+  checksum: 10/7333d1221e3892c7d2cb8b505b4835b526969d628e4becfd9af4ef16d9ba546d6742a07577e33a63be17a1d530fdabf8efcffefe2935f7336179c59b161ad450
   languageName: node
   linkType: hard
 
