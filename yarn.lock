@@ -5466,12 +5466,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.17.2":
-  version: 20.17.2
-  resolution: "@types/node@npm:20.17.2"
+"@types/node@npm:22.10.2":
+  version: 22.10.2
+  resolution: "@types/node@npm:22.10.2"
   dependencies:
-    undici-types: "npm:~6.19.2"
-  checksum: 10/ca673505ee4ab107cc0429066f39f6f2d0a60a9c6ecad6159e4d2d30dc4122b80f0550adfa1ea29a44cb9bc97d4930112c2a1ea07db1c10783b72e7f6a05b6c9
+    undici-types: "npm:~6.20.0"
+  checksum: 10/451adfefed4add58b069407173e616220fd4aaa3307cdde1bb701aa053b65b54ced8483db2f870dcedec7a58cb3b06101fbc19d85852716672ec1fd3660947fa
   languageName: node
   linkType: hard
 
@@ -13128,7 +13128,7 @@ __metadata:
     "@swc/jest": "npm:0.2.36"
     "@types/aws-lambda": "npm:8.10.145"
     "@types/jest": "npm:29.5.14"
-    "@types/node": "npm:20.17.2"
+    "@types/node": "npm:22.10.2"
     "@types/serverless": "npm:3.12.22"
     "@typescript-eslint/eslint-plugin": "npm:7.18.0"
     "@typescript-eslint/parser": "npm:7.18.0"
@@ -16329,6 +16329,13 @@ __metadata:
   version: 6.19.8
   resolution: "undici-types@npm:6.19.8"
   checksum: 10/cf0b48ed4fc99baf56584afa91aaffa5010c268b8842f62e02f752df209e3dea138b372a60a963b3b2576ed932f32329ce7ddb9cb5f27a6c83040d8cd74b7a70
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~6.20.0":
+  version: 6.20.0
+  resolution: "undici-types@npm:6.20.0"
+  checksum: 10/583ac7bbf4ff69931d3985f4762cde2690bb607844c16a5e2fbb92ed312fe4fa1b365e953032d469fa28ba8b224e88a595f0b10a449332f83fa77c695e567dbe
   languageName: node
   linkType: hard
 
