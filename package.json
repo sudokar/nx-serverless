@@ -43,7 +43,7 @@
     "@swc/jest": "0.2.36",
     "@types/aws-lambda": "8.10.146",
     "@types/jest": "29.5.14",
-    "@types/node": "20.17.10",
+    "@types/node": "22.10.2",
     "@types/serverless": "3.12.25",
     "@typescript-eslint/eslint-plugin": "7.18.0",
     "@typescript-eslint/parser": "7.18.0",
@@ -66,7 +66,7 @@
     "typescript": "5.7.2"
   },
   "engines": {
-    "node": "20"
+    "node": "22"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
