@@ -5491,10 +5491,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/serverless@npm:3.12.22":
-  version: 3.12.22
-  resolution: "@types/serverless@npm:3.12.22"
-  checksum: 10/cc419e156b9efbd97034540168846c5f5c4a9c3833750a7bbe2be613398fdeac5d2f224417d13c0bd8c932537372f984775238bf169b926b06d336d998d71422
+"@types/serverless@npm:3.12.25":
+  version: 3.12.25
+  resolution: "@types/serverless@npm:3.12.25"
+  checksum: 10/3ffed77896558c6e8838116430ad4837e50b831e15df16c79c9fa6ee8e26c93709b3cafa676876c67a89eb5a75893324d1958f8f4b62e662a1f1b7a71acd75b5
   languageName: node
   linkType: hard
 
@@ -13141,7 +13141,7 @@ __metadata:
     "@types/aws-lambda": "npm:8.10.146"
     "@types/jest": "npm:29.5.14"
     "@types/node": "npm:20.17.10"
-    "@types/serverless": "npm:3.12.22"
+    "@types/serverless": "npm:3.12.25"
     "@typescript-eslint/eslint-plugin": "npm:7.18.0"
     "@typescript-eslint/parser": "npm:7.18.0"
     esbuild: "npm:0.20.0"
@@ -13153,7 +13153,7 @@ __metadata:
     lint-staged: "npm:15.2.11"
     nx-cloud: "npm:18.0.1"
     prettier: "npm:3.4.2"
-    serverless: "npm:3.39.0"
+    serverless: "npm:3.40.0"
     serverless-esbuild: "npm:1.54.6"
     serverless-jest-plugin: "npm:0.4.0"
     serverless-offline: "npm:13.8.2"
@@ -14813,9 +14813,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"serverless@npm:3.39.0":
-  version: 3.39.0
-  resolution: "serverless@npm:3.39.0"
+"serverless@npm:3.40.0":
+  version: 3.40.0
+  resolution: "serverless@npm:3.40.0"
   dependencies:
     "@aws-sdk/client-api-gateway": "npm:^3.588.0"
     "@aws-sdk/client-cognito-identity-provider": "npm:^3.588.0"
@@ -14882,7 +14882,7 @@ __metadata:
   bin:
     serverless: bin/serverless.js
     sls: bin/serverless.js
-  checksum: 10/521158e5d1135fb8394094ed1b9039644c4b315bb4034e8c0517c840e6d2b4c26347b4daa1fe40e5fcb46501f912d60c28d678a062dc839b5087fc327a8c7ad8
+  checksum: 10/5d016a4f4c118fa7d60d25c52b0247b720d459e770e0c9449ae015b02f05c8e193b60bf41c0330f134ca4b0232c5005be33a94f8b805398832b864eedf956855
   languageName: node
   linkType: hard
 
