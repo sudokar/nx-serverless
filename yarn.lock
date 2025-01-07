@@ -966,6 +966,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@aws-sdk/types@npm:3.723.0":
+  version: 3.723.0
+  resolution: "@aws-sdk/types@npm:3.723.0"
+  dependencies:
+    "@smithy/types": "npm:^4.0.0"
+    tslib: "npm:^2.6.2"
+  checksum: 10/8016161bba94828825b3302ba2ec2aaa5426ba33f4c5b667e306673f02d56f321853a0bbb9644af5a27b83ca5d99798581bb9c3664af074bd2f9a5d0b1ccf852
+  languageName: node
+  linkType: hard
+
 "@aws-sdk/util-arn-parser@npm:3.693.0":
   version: 3.693.0
   resolution: "@aws-sdk/util-arn-parser@npm:3.693.0"
@@ -4798,6 +4808,15 @@ __metadata:
   dependencies:
     tslib: "npm:^2.6.2"
   checksum: 10/7a40dcb7f858367a07456c5ae7e7eec89ea9efb7e511e521c105a9568e1e89add875b25e63df19bebdaa77af89f0e5fc691b9f408d077bedb10586a764133e41
+  languageName: node
+  linkType: hard
+
+"@smithy/types@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "@smithy/types@npm:4.0.0"
+  dependencies:
+    tslib: "npm:^2.6.2"
+  checksum: 10/5c1e809e8b2eed19e779a64eebe82b6babe67072c1e238ef318892b01d09666809d9e9a1b4dd3fc1bf2c5112b3269399ec0fcd5292cb77758daf2c1214f659ee
   languageName: node
   linkType: hard
 
@@ -13187,7 +13206,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nx-serverless-template@workspace:."
   dependencies:
-    "@aws-sdk/types": "npm:3.714.0"
+    "@aws-sdk/types": "npm:3.723.0"
     "@jest/transform": "npm:29.7.0"
     "@nrwl/tao": "npm:18.3.5"
     "@nx/devkit": "npm:18.3.5"
