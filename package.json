@@ -44,7 +44,7 @@
     "@types/aws-lambda": "8.10.157",
     "@types/jest": "29.5.14",
     "@types/node": "20.17.12",
-    "@types/serverless": "3.12.26",
+    "@types/serverless": "3.12.27",
     "@typescript-eslint/eslint-plugin": "7.18.0",
     "@typescript-eslint/parser": "7.18.0",
     "esbuild": "0.20.0",
