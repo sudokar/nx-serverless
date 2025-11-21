@@ -3820,12 +3820,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nrwl/nx-cloud@npm:18.0.1":
-  version: 18.0.1
-  resolution: "@nrwl/nx-cloud@npm:18.0.1"
+"@nrwl/nx-cloud@npm:19.1.0":
+  version: 19.1.0
+  resolution: "@nrwl/nx-cloud@npm:19.1.0"
   dependencies:
-    nx-cloud: "npm:18.0.1"
-  checksum: 10/0ce7d07d3541fcf1fe798a49269d00daaf8f27558b36471f0c4c3586f28882035500e017d7d3939eb545576acaba0d794cadacdba1e6956665394b839aa67ba1
+    nx-cloud: "npm:19.1.0"
+  checksum: 10/ecae86aa0af80fb5d82f7f1cfc8e985231624f19b0131237a891895804def6f20a3c69fb2dbab020889b0351361ba9e9108a104c6f40243b029a7f98868a0042
   languageName: node
   linkType: hard
 
@@ -6228,17 +6228,6 @@ __metadata:
   version: 1.13.2
   resolution: "aws4@npm:1.13.2"
   checksum: 10/290b9f84facbad013747725bfd8b4c42d0b3b04b5620d8418f0219832ef95a7dc597a4af7b1589ae7fce18bacde96f40911c3cda36199dd04d9f8e01f72fa50a
-  languageName: node
-  linkType: hard
-
-"axios@npm:1.1.3":
-  version: 1.1.3
-  resolution: "axios@npm:1.1.3"
-  dependencies:
-    follow-redirects: "npm:^1.15.0"
-    form-data: "npm:^4.0.0"
-    proxy-from-env: "npm:^1.1.0"
-  checksum: 10/af4524f6a5100021924b5a49f49ccc7ea414c630b80dec8f127c82e1b8b8dfb214efdcb295820a1c2382e39208f03c365082aa9f369a1d8c29e7cfcc76a856e7
   languageName: node
   linkType: hard
 
@@ -9229,7 +9218,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"follow-redirects@npm:^1.15.0, follow-redirects@npm:^1.15.6":
+"follow-redirects@npm:^1.15.6":
   version: 1.15.9
   resolution: "follow-redirects@npm:1.15.9"
   peerDependenciesMeta:
@@ -10141,6 +10130,13 @@ __metadata:
   version: 2.0.4
   resolution: "inherits@npm:2.0.4"
   checksum: 10/cd45e923bee15186c07fa4c89db0aace24824c482fb887b528304694b2aa6ff8a898da8657046a5dcf3e46cd6db6c61629551f9215f208d7c3f157cf9b290521
+  languageName: node
+  linkType: hard
+
+"ini@npm:4.1.3":
+  version: 4.1.3
+  resolution: "ini@npm:4.1.3"
+  checksum: 10/f536b414d1442e5b233429e2b56efcdb354109b2d65ddd489e5939d8f0f5ad23c88aa2b19c92987249d0dd63ba8192e9aeb1a02b0459549c5a9ff31acd729a5d
   languageName: node
   linkType: hard
 
@@ -13226,23 +13222,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nx-cloud@npm:18.0.1":
-  version: 18.0.1
-  resolution: "nx-cloud@npm:18.0.1"
+"nx-cloud@npm:19.1.0":
+  version: 19.1.0
+  resolution: "nx-cloud@npm:19.1.0"
   dependencies:
-    "@nrwl/nx-cloud": "npm:18.0.1"
-    axios: "npm:1.1.3"
+    "@nrwl/nx-cloud": "npm:19.1.0"
+    axios: "npm:^1.6.0"
     chalk: "npm:^4.1.0"
     dotenv: "npm:~10.0.0"
     fs-extra: "npm:^11.1.0"
+    ini: "npm:4.1.3"
     node-machine-id: "npm:^1.1.12"
     open: "npm:~8.4.0"
-    strip-json-comments: "npm:^3.1.1"
     tar: "npm:6.2.1"
     yargs-parser: "npm:>=21.1.1"
   bin:
     nx-cloud: bin/nx-cloud.js
-  checksum: 10/2bb52936553b8ab4a3970c19f6b5385dd2ff22c2f6cb67d38cd08d5e5a265bef7d6e85c9fe742a8acfc1d585870fdbf010a28c3f34a58bf48a329a895b8db5cf
+  checksum: 10/c4cfaac8b048580e6d0b18d1cc6c94107762c91fc9530806465a7286f2fff924bc98914883ddb052c53c4066fbe2bfe19674f69729e28fe4928e25dd1e911828
   languageName: node
   linkType: hard
 
@@ -13279,7 +13275,7 @@ __metadata:
     jest: "npm:29.7.0"
     jest-environment-node: "npm:29.7.0"
     lint-staged: "npm:15.5.2"
-    nx-cloud: "npm:18.0.1"
+    nx-cloud: "npm:19.1.0"
     prettier: "npm:3.6.2"
     serverless: "npm:3.40.0"
     serverless-esbuild: "npm:1.56.0"
