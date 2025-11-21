@@ -5422,12 +5422,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.19.24":
-  version: 20.19.24
-  resolution: "@types/node@npm:20.19.24"
+"@types/node@npm:20.19.25":
+  version: 20.19.25
+  resolution: "@types/node@npm:20.19.25"
   dependencies:
     undici-types: "npm:~6.21.0"
-  checksum: 10/d3e2f47b1417d5dc8d8f425d2efecaa1fd8fe201b4e8de3e6fa8a54841487e48d81d9f24caaf329d316248b3eff8852f82faf16c177ba3606b09442e5094fc7e
+  checksum: 10/f0ed863599da289df5838380e211f9e010414dc7df8127b79f6a7eeca80a8d6e3daf3e58ddad1884f8dfafd17c16b02f56cee1689b7ebdf5df6d0e5770165ac1
   languageName: node
   linkType: hard
 
@@ -13268,7 +13268,7 @@ __metadata:
     "@swc/jest": "npm:0.2.36"
     "@types/aws-lambda": "npm:8.10.159"
     "@types/jest": "npm:29.5.14"
-    "@types/node": "npm:20.19.24"
+    "@types/node": "npm:20.19.25"
     "@types/serverless": "npm:3.12.27"
     "@typescript-eslint/eslint-plugin": "npm:7.18.0"
     "@typescript-eslint/parser": "npm:7.18.0"
