@@ -5447,10 +5447,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/serverless@npm:3.12.27":
-  version: 3.12.27
-  resolution: "@types/serverless@npm:3.12.27"
-  checksum: 10/3a54e4914a95b8c3b852025e6e8fd6df87ebb7cf9b3504afa31cd52d41d9f023b46eaa176cca54630581d24cc45e5532209b82e8800a0e821655d073fa0a3f5a
+"@types/serverless@npm:3.12.28":
+  version: 3.12.28
+  resolution: "@types/serverless@npm:3.12.28"
+  checksum: 10/e6319f7d3182ed1941b6b645f6538de745ae47782eb1f90b62f0b9a53fc14022a24f07491f5a061e1e77e7a301158e9bc9de4ddcf5a1f2be352317cbe699b990
   languageName: node
   linkType: hard
 
@@ -13269,7 +13269,7 @@ __metadata:
     "@types/aws-lambda": "npm:8.10.161"
     "@types/jest": "npm:29.5.14"
     "@types/node": "npm:20.19.37"
-    "@types/serverless": "npm:3.12.27"
+    "@types/serverless": "npm:3.12.28"
     "@typescript-eslint/eslint-plugin": "npm:7.18.0"
     "@typescript-eslint/parser": "npm:7.18.0"
     esbuild: "npm:0.20.0"
