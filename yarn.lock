@@ -8453,14 +8453,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:9.1.2":
-  version: 9.1.2
-  resolution: "eslint-config-prettier@npm:9.1.2"
+"eslint-config-prettier@npm:10.1.8":
+  version: 10.1.8
+  resolution: "eslint-config-prettier@npm:10.1.8"
   peerDependencies:
     eslint: ">=7.0.0"
   bin:
     eslint-config-prettier: bin/cli.js
-  checksum: 10/e4bba2d76df9dc6e2adca2866e544bfd1ff32232fc483743c04cedd93918a90a327b56d4a7e3f9d3fa32d90bd50b034d09df987860260064b18c026b8bbd15aa
+  checksum: 10/03f8e6ea1a6a9b8f9eeaf7c8c52a96499ec4b275b9ded33331a6cc738ed1d56de734097dbd0091f136f0e84bc197388bd8ec22a52a4658105883f8c8b7d8921a
   languageName: node
   linkType: hard
 
@@ -13274,7 +13274,7 @@ __metadata:
     "@typescript-eslint/parser": "npm:7.18.0"
     esbuild: "npm:0.20.0"
     eslint: "npm:8.57.1"
-    eslint-config-prettier: "npm:9.1.2"
+    eslint-config-prettier: "npm:10.1.8"
     husky: "npm:9.1.7"
     jest: "npm:29.7.0"
     jest-environment-node: "npm:29.7.0"
