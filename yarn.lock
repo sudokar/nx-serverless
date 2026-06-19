@@ -13284,7 +13284,7 @@ __metadata:
     serverless: "npm:3.40.0"
     serverless-esbuild: "npm:1.57.2"
     serverless-jest-plugin: "npm:0.4.0"
-    serverless-offline: "npm:13.9.0"
+    serverless-offline: "npm:13.10.1"
     ts-jest: "npm:29.4.11"
     ts-loader: "npm:9.5.4"
     ts-node: "npm:10.9.2"
@@ -14987,9 +14987,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"serverless-offline@npm:13.9.0":
-  version: 13.9.0
-  resolution: "serverless-offline@npm:13.9.0"
+"serverless-offline@npm:13.10.1":
+  version: 13.10.1
+  resolution: "serverless-offline@npm:13.10.1"
   dependencies:
     "@aws-sdk/client-lambda": "npm:^3.636.0"
     "@hapi/boom": "npm:^10.0.1"
@@ -15015,7 +15015,7 @@ __metadata:
     ws: "npm:^8.18.0"
   peerDependencies:
     serverless: ^3.2.0
-  checksum: 10/4e4d80ce71e6aaa8b9c6476d0929afa8b8ad84561e0b09e7c7ac55f538fdba2a40e0242ef02aeadb0f9a2225a40f9b39449fbdc42e04562d5bbe2a1a9d785769
+  checksum: 10/7beb3e4278629f5e4e6de9a66ecf1bf2c61e1f3e0f072e1538d1ebc99505f24edf07d7dc620a735a961d64b8ef3cb5d9f69ec943679f19b95fa7de5e9e011db6
   languageName: node
   linkType: hard
 
