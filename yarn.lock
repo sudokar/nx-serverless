@@ -13280,7 +13280,7 @@ __metadata:
     jest-environment-node: "npm:29.7.0"
     lint-staged: "npm:15.5.2"
     nx-cloud: "npm:18.0.1"
-    prettier: "npm:3.6.2"
+    prettier: "npm:3.8.4"
     serverless: "npm:3.40.0"
     serverless-esbuild: "npm:1.56.0"
     serverless-jest-plugin: "npm:0.4.0"
@@ -14052,12 +14052,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:3.6.2":
-  version: 3.6.2
-  resolution: "prettier@npm:3.6.2"
+"prettier@npm:3.8.4":
+  version: 3.8.4
+  resolution: "prettier@npm:3.8.4"
   bin:
     prettier: bin/prettier.cjs
-  checksum: 10/1213691706bcef1371d16ef72773c8111106c3533b660b1cc8ec158bd109cdf1462804125f87f981f23c4a3dba053b6efafda30ab0114cc5b4a725606bb9ff26
+  checksum: 10/54684a3cc6689238692b29fab541c01934af7677be94c02293ba49981a1ac121c8bebe2a865f0c3b963e99d208f847c53aed354cc0ce8750e2d45791d64506c5
   languageName: node
   linkType: hard
 
