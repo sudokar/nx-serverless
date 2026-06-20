@@ -13286,7 +13286,7 @@ __metadata:
     serverless-jest-plugin: "npm:0.4.0"
     serverless-offline: "npm:13.10.1"
     ts-jest: "npm:29.4.11"
-    ts-loader: "npm:9.5.4"
+    ts-loader: "npm:9.6.1"
     ts-node: "npm:10.9.2"
     tslib: "npm:2.8.1"
     typescript: "npm:5.9.3"
@@ -16283,9 +16283,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-loader@npm:9.5.4":
-  version: 9.5.4
-  resolution: "ts-loader@npm:9.5.4"
+"ts-loader@npm:9.6.1":
+  version: 9.6.1
+  resolution: "ts-loader@npm:9.6.1"
   dependencies:
     chalk: "npm:^4.1.0"
     enhanced-resolve: "npm:^5.0.0"
@@ -16293,9 +16293,13 @@ __metadata:
     semver: "npm:^7.3.4"
     source-map: "npm:^0.7.4"
   peerDependencies:
+    loader-utils: "*"
     typescript: "*"
-    webpack: ^5.0.0
-  checksum: 10/a9977dce1cda5af08010ae92d96fb57981ce52cb6123054b232fc7f71e151969f45e36ca055c0babe01b3b97dcba54b631ad7a50e3e96e839dfd7033c385de05
+    webpack: ^4.0.0 || ^5.0.0
+  peerDependenciesMeta:
+    loader-utils:
+      optional: true
+  checksum: 10/c0353835445ff31ac5a21f40760c745f7727b1a340058cf44e25791427956fb9f89d2c35dde0ee734677ec747c7e3ff7bbd447ca49ee16cf207d0bfe8118c965
   languageName: node
   linkType: hard
 
