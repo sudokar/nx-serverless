@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=sudokar&project=nx-serverless&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=sudokar&project=nx-serverless&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=sudokar&project=nx-serverless&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=sudokar&project=nx-serverless&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=sudokar&project=nx-serverless&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=sudokar&project=nx-serverless&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=sudokar&project=nx-serverless&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=sudokar&project=nx-serverless&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=sudokar&project=nx-serverless&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=sudokar&project=nx-serverless&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=sudokar&project=nx-serverless&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=sudokar&project=nx-serverless&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=sudokar&project=nx-serverless&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=sudokar&project=nx-serverless&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=sudokar&project=nx-serverless&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=sudokar&project=nx-serverless&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=sudokar&project=nx-serverless&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=sudokar&project=nx-serverless&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=sudokar&project=nx-serverless&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=sudokar&project=nx-serverless&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=sudokar&project=nx-serverless&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # nx-serverless-monorepo
 
 [![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)
